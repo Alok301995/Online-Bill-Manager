@@ -389,10 +389,14 @@ void _record_to_file(Record **arr, int size)
         char buff[300];
         for (int i = 0; i < size; i++)
         {
-            if (arr[i]->day < 10 && arr[i]->month < 10)
+            if (arr[i]->day < 10 && arr[i]->month > 9)
             {
 
-                snprintf(buff, 300, "0%d.0%d.%d\t%s\t%f", arr[i]->day, arr[i]->month, arr[i]->year, arr[i]->item_name, arr[i]->value);
+                snprintf(buff, 300, "0%d.%d.%d\t%s\t%f", arr[i]->day, arr[i]->month, arr[i]->year, arr[i]->item_name, arr[i]->value);
+            }
+            else if (arr[i]->day > 9 && arr[i]->month < 10)
+            {
+                snprintf(buff, 300, "%d.0%d.%d\t%s\t%f", arr[i]->day, arr[i]->month, arr[i]->year, arr[i]->item_name, arr[i]->value);
             }
             else
             {
