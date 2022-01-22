@@ -1,0 +1,199 @@
+08.03.2015	appliances sewing_machine janome	293.65
+24.09.2010	appliances kitchen washer lg	712.87
+23.10.2021	electronics smartphone xiaomi	183.27
+11.11.2012	computers notebook hp	360.09
+05.10.2017	computers notebook hp	514.56
+26.03.2019	electronics smartphone apple	732.07
+11.01.2014	appliances kitchen dishwasher samsung	411.83
+14.11.2011	electronics smartphone huawei	164.84
+03.12.2019	computers notebook hp	411.59
+16.08.2018	electronics smartphone huawei	151.99
+26.06.2014	electronics smartphone apple	949.47
+23.04.2019	computers notebook acer	514.79
+03.03.2019	computers notebook asus	360.34
+20.05.2016	furniture kitchen chair nika	47.77
+10.10.2012	electronics audio headphone acme	69.24
+30.09.2011	appliances environment vacuum tefal	108.09
+30.03.2020	electronics smartphone apple	458.28
+24.01.2010	electronics smartphone samsung	503.09
+28.01.2012	appliances environment water_heater oasis	32.66
+14.05.2014	appliances kitchen dishwasher bosch	684.44
+14.09.2018	electronics smartphone xiaomi	211.92
+18.09.2017	electronics clocks tissot	895.78
+17.12.2012	electronics video tv samsung	289.33
+07.10.2011	apparel tshirt goodloot	8.73
+26.01.2014	electronics smartphone apple	928.18
+19.06.2021	furniture kitchen chair nika	47.77
+06.07.2013	computers notebook lenovo	385.85
+27.04.2018	electronics smartphone samsung	128.42
+03.10.2014	construction tools drill dewalt	98.51
+09.05.2015	electronics smartphone xiaomi	84.65
+26.08.2018	auto accessories compressor denzel	157.28
+07.07.2017	furniture kitchen chair mamadoma	34.75
+14.01.2015	computers components motherboard asus	287.83
+21.07.2014	computers peripherals printer canon	151.14
+03.04.2011	electronics smartphone apple	1091.33
+11.10.2015	electronics audio headphone xiaomi	22.8
+08.04.2010	electronics smartphone oppo	257.38
+22.10.2014	auto accessories player ams	221.37
+25.03.2017	computers notebook asus	849.42
+16.01.2011	electronics smartphone samsung	242.63
+18.08.2021	accessories bag fisherman	48.43
+30.09.2016	appliances kitchen refrigerators samsung	499.94
+08.07.2015	electronics audio headphone acme	51.22
+06.04.2019	electronics smartphone xiaomi	463.15
+11.03.2014	electronics smartphone apple	928.38
+19.12.2013	electronics clocks tissot	861.28
+23.09.2021	computers components videocards palit	170.63
+08.04.2020	electronics smartphone apple	1013.86
+28.05.2014	computers notebook hp	411.59
+21.12.2010	electronics smartphone apple	1173.6
+15.10.2017	computers notebook hp	390.98
+21.05.2014	electronics smartphone apple	1091.33
+02.11.2018	electronics smartphone huawei	946.73
+08.03.2021	appliances kitchen refrigerators indesit	314.08
+06.03.2011	construction tools drill dewalt	226.83
+03.07.2021	computers notebook lenovo	514.79
+13.09.2020	electronics smartphone xiaomi	489.07
+14.05.2016	electronics smartphone samsung	172.22
+16.04.2017	electronics smartphone samsung	172.23
+12.06.2012	electronics audio subwoofer avatar	41.19
+06.08.2013	electronics smartphone xiaomi	398.72
+19.07.2012	computers notebook apple	2342.15
+29.04.2010	electronics clocks tissot	861.28
+05.10.2014	computers notebook hp	406.68
+05.10.2019	computers notebook acer	1209.55
+17.03.2012	auto accessories compressor laston	113.93
+19.05.2017	electronics smartphone apple	928.38
+09.10.2014	construction tools welding magnetta	254.78
+05.09.2021	electronics smartphone huawei	334.37
+08.09.2018	electronics smartphone samsung	242.63
+29.11.2017	appliances sewing_machine janome	293.65
+03.03.2013	electronics audio headphone xiaomi	22.8
+02.01.2021	computers peripherals printer epson	203.84
+07.03.2021	electronics smartphone huawei	125.61
+22.12.2019	appliances kitchen dishwasher bosch	684.44
+29.09.2014	electronics smartphone samsung	128.42
+30.09.2013	electronics smartphone apple	1013.86
+02.12.2012	appliances kitchen dishwasher beko	298.16
+17.01.2013	computers notebook acer	2312.8
+19.01.2016	auto accessories player pioneer	229.09
+02.01.2019	construction tools saw dwt	48.35
+18.11.2011	electronics smartphone xiaomi	167.02
+18.12.2015	electronics smartphone xiaomi	211.92
+06.05.2021	electronics clocks garmin	2239.44
+26.12.2017	computers notebook apple	2496.59
+08.01.2019	appliances kitchen refrigerators arg	128.68
+13.06.2018	electronics smartphone xiaomi	195.37
+10.11.2021	auto accessories player ams	221.37
+28.09.2012	furniture kitchen table brw	207.21
+29.06.2012	electronics audio subwoofer pioneer	58.69
+28.08.2020	apparel shoes pablosky	65.38
+08.11.2010	electronics smartphone xiaomi	218.51
+20.03.2017	construction tools drill dewalt	150.95
+30.03.2011	electronics smartphone huawei	127.33
+15.03.2016	construction tools light stanley	29.86
+13.07.2010	computers notebook hp	411.34
+21.06.2011	electronics clocks casio	165.26
+30.03.2011	apparel shirt jordan	102.71
+28.12.2017	construction tools painting fubag	24.71
+13.07.2011	electronics clocks armani	293.44
+19.08.2012	auto accessories player ams	221.37
+01.07.2021	electronics smartphone xiaomi	183.27
+03.06.2013	computers notebook hp	432.42
+09.09.2021	electronics clocks tissot	380.96
+13.04.2021	electronics clocks apple	552.14
+10.04.2017	electronics audio subwoofer alphard	38.61
+28.07.2021	electronics audio headphone hp	67.84
+17.11.2015	computers notebook apple	2311.49
+19.04.2010	electronics audio subwoofer element	133.83
+11.05.2011	electronics smartphone apple	732.07
+11.12.2018	appliances kitchen dishwasher gorenje	498.64
+20.09.2013	electronics smartphone apple	617.52
+06.05.2019	electronics smartphone huawei	946.73
+20.01.2015	electronics smartphone samsung	242.63
+30.04.2010	electronics audio headphone apple	160.57
+15.06.2015	electronics smartphone xiaomi	280.57
+30.05.2017	appliances kitchen refrigerators bosch	450.44
+30.03.2014	electronics smartphone samsung	275.25
+16.08.2010	construction tools painting fubag	24.71
+12.10.2015	furniture kitchen table komfort-s	39.36
+13.01.2011	appliances environment water_heater artel	85.82
+29.04.2015	computers notebook acer	1209.55
+05.11.2015	electronics smartphone apple	1013.86
+15.07.2018	electronics smartphone xiaomi	94.46
+02.07.2014	construction tools light stanley	29.86
+23.08.2013	computers notebook acer	411.83
+20.01.2016	furniture kitchen chair domini	30.89
+11.07.2011	apparel shirt jordan	102.71
+24.03.2016	construction tools welding magnetta	254.78
+24.07.2010	appliances kitchen refrigerators indesit	268.49
+05.10.2021	construction tools saw dwt	48.35
+06.12.2013	electronics clocks armani	270.79
+22.05.2015	appliances personal massager bradex	12.36
+23.05.2010	computers peripherals keyboard defender	16.41
+15.11.2011	electronics audio headphone steelseries	66.67
+07.07.2017	electronics smartphone oneplus	540.3
+11.12.2015	construction tools painting fubag	13.0
+06.11.2013	electronics smartphone apple	532.57
+07.09.2020	computers notebook asus	424.7
+06.06.2021	electronics smartphone huawei	266.0
+18.11.2010	electronics smartphone huawei	149.3
+02.12.2012	electronics smartphone apple	1189.19
+27.03.2010	appliances kitchen dishwasher gorenje	498.64
+29.08.2012	electronics smartphone xiaomi	84.65
+11.01.2012	furniture kitchen chair fly	17.25
+06.07.2020	electronics smartphone xiaomi	211.92
+19.07.2019	electronics smartphone apple	732.07
+30.09.2014	computers components videocards palit	334.31
+11.06.2019	construction tools painting stels	52.12
+23.10.2012	electronics smartphone samsung	362.29
+30.10.2014	electronics smartphone xiaomi	84.65
+09.05.2019	electronics video tv samsung	289.33
+09.08.2019	electronics clocks tissot	947.26
+01.07.2015	construction tools saw dwt	66.36
+19.08.2020	appliances kitchen refrigerators lg	463.07
+17.05.2011	electronics smartphone apple	949.47
+22.11.2021	appliances kitchen washer indesit	177.27
+10.04.2016	electronics smartphone xiaomi	218.54
+27.10.2015	kids toys disney	10.35
+15.06.2018	electronics smartphone huawei	266.0
+01.03.2019	electronics clocks garmin	2239.44
+23.08.2019	electronics smartphone samsung	229.9
+13.10.2012	computers notebook apple	1338.5
+05.01.2011	computers notebook asus	424.7
+12.12.2011	construction tools painting matrix	17.48
+13.12.2015	kids toys disney	10.35
+29.07.2013	electronics smartphone xiaomi	85.88
+18.09.2018	construction tools drill dewalt	114.65
+11.05.2020	electronics smartphone huawei	151.99
+10.10.2014	electronics smartphone samsung	503.09
+11.08.2019	computers notebook hp	432.42
+29.01.2012	electronics smartphone oneplus	540.3
+06.01.2016	electronics clocks apple	453.16
+09.01.2010	electronics smartphone apple	531.26
+20.04.2020	computers peripherals keyboard defender	16.41
+29.09.2011	electronics tablet irbis	88.63
+17.11.2017	apparel shoes garvalin	35.26
+26.06.2021	electronics smartphone samsung	128.42
+05.01.2014	computers notebook hp	432.42
+11.03.2018	kids toys disney	10.35
+13.01.2018	electronics clocks tissot	947.26
+30.03.2018	electronics smartphone xiaomi	111.56
+06.04.2011	appliances kitchen refrigerators lg	463.07
+09.07.2013	electronics smartphone xiaomi	218.54
+24.10.2019	electronics clocks samsung	257.87
+29.08.2013	electronics smartphone xiaomi	183.27
+30.11.2010	electronics smartphone oneplus	461.61
+16.12.2010	appliances personal massager bradex	12.36
+08.11.2011	furniture kitchen chair domini	30.89
+07.01.2020	appliances environment water_heater oasis	25.48
+28.12.2011	electronics audio subwoofer infinity	87.52
+14.11.2018	apparel shoes nexpero	75.42
+28.12.2020	electronics audio subwoofer hertz	90.98
+18.10.2016	appliances kitchen hood midea	128.68
+28.03.2012	electronics smartphone samsung	242.63
+17.04.2020	electronics smartphone samsung	362.29
+03.09.2018	computers notebook lenovo	449.95
+16.09.2010	appliances kitchen refrigerators indesit	314.08
+03.06.2014	electronics smartphone xiaomi	138.74
