@@ -40,6 +40,11 @@ void _print_record(Record **arr, int size)
     }
 }
 
+void _print_precord(Record **arr, int index)
+{
+    printf("%d %d %d %s %f \n", arr[index]->day, arr[index]->month, arr[index]->year, arr[index]->item_name, arr[index]->value);
+}
+
 Record **_init_record(int size)
 {
     Record **arr = (Record **)malloc(5 * sizeof(Record *));
@@ -257,6 +262,47 @@ Record **_merge(Record **arr_1, Record **arr_2, int size_1, int size_2, char *ty
     }
 }
 
+// ******************* Similarity  *************************
+
+void _similarity(Record **r_1, Record **r_2, int size_1, int size_2)
+{
+    for (int i = 0; i < size_1; i++)
+    {
+
+        for (int j = 0; j < size_2; j++)
+        {
+            if (r_1[i]->day == r_2[j]->day && r_1[i]->month == r_2[j]->month && r_1[i]->year == r_2[j]->year)
+            {
+                _print_precord(r_2, j);
+            }
+        }
+    }
+}
+
+void _record_to_file(Record **arr, int size)
+{
+    // check if record is empty or not
+    if (arr == NULL)
+    {
+        _print_msg("Empty record");
+    }
+    else
+    {
+
+        FILE *out_file = fopen("out.txt", "w");
+        char buff[300];
+        for (int i = 0; i < size; i++)
+        {
+            snprintf(buff, 300, "%d.%d.%d\t%s\t%f", arr[i]->day, arr[i]->month, arr[i]->year, arr[i]->item_name, arr[i]->value);
+            fputs(buff, out_file);
+            fputc('\n', out_file);
+        }
+        fclose(out_file);
+    }
+}
+
+// *********************************************************
+
 // *********************************************************
 
 int main()
@@ -310,7 +356,7 @@ int main()
     // }
 
     Record **r_1 = _init_record(5);
-    Record **r_2 = _init_record(5);
+    // Record **r_2 = _init_record(5);
 
     int count = 0;
     while (fscanf(file, "%[^\n]\n", buffer) != EOF && count < 5)
@@ -319,23 +365,25 @@ int main()
         count++;
     }
     // _print_record(r_1, 5);
-    while (fscanf(file, "%[^\n]\n", buffer) != EOF && count < 10)
-    {
-        sscanf(buffer, "%d.%d.%d %[^\t] %f", &r_2[count - 5]->day, &r_2[count - 5]->month, &r_2[count - 5]->year, r_2[count - 5]->item_name, &r_2[count - 5]->value);
-        count++;
-    }
+    // while (fscanf(file, "%[^\n]\n", buffer) != EOF && count < 10)
+    // {
+    //     sscanf(buffer, "%d.%d.%d %[^\t] %f", &r_2[count - 5]->day, &r_2[count - 5]->month, &r_2[count - 5]->year, r_2[count - 5]->item_name, &r_2[count - 5]->value);
+    //     count++;
+    // }
+    _print_record(r_1, 5);
     // _print_record(r_2, 5);
-    sort(r_1, 5, "name");
-    sort(r_2, 5, "name");
-    // _print_record(r_1, 5);
+    sort(r_1, 5, "price");
+    // sort(r_2, 5, "name");
     // _print_record(r_2, 5);
-    Record **merged_record = _merge(r_1, r_2, 5, 5, "name");
-    if (merged_record == NULL)
-    {
-        _print_msg("can not merged");
-    }
-    else
-    {
-        _print_record(merged_record, 10);
-    }
+    // Record **merged_record = _merge(r_1, r_2, 5, 5, "name");
+    // if (merged_record == NULL)
+    // {
+    //     _print_msg("can not merged");
+    // }
+    // else
+    // {
+    //     _print_record(merged_record, 10);
+    // }
+    // _similarity(r_1, r_2, 5, 5);
+    _record_to_file(r_1, 5);
 }
