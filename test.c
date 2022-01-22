@@ -42,9 +42,32 @@ void _print_record(Record **arr, int size)
     }
 }
 
-void _print_precord(Record **arr, int index)
+void _print_precord(Record **arr_1, int i, Record **arr_2, int j)
 {
-    printf("%d %d %d %s %f \n", arr[index]->day, arr[index]->month, arr[index]->year, arr[index]->item_name, arr[index]->value);
+    if (arr_1[i]->day < 10 && arr_1[i]->month > 9)
+    {
+        printf("0%d.%d.%d %s %f", arr_1[i]->day, arr_1[i]->month, arr_1[i]->year, arr_1[i]->item_name, arr_1[i]->value);
+    }
+    else if (arr_1[i]->day > 9 && arr_1[i]->month < 10)
+    {
+        printf("%d.0%d.%d %s %f", arr_1[i]->day, arr_1[i]->month, arr_1[i]->year, arr_1[i]->item_name, arr_1[i]->value);
+    }
+    else
+    {
+        printf("%d.%d.%d %s %f", arr_1[i]->day, arr_1[i]->month, arr_1[i]->year, arr_1[i]->item_name, arr_1[i]->value);
+    }
+    if (arr_2[i]->day < 10 && arr_2[i]->month > 9)
+    {
+        printf(" | 0%d.%d.%d %s %f\n", arr_2[j]->day, arr_2[j]->month, arr_2[j]->year, arr_2[j]->item_name, arr_2[j]->value);
+    }
+    else if (arr_2[i]->day > 9 && arr_2[i]->month < 10)
+    {
+        printf(" | %d.0%d.%d %s %f\n", arr_2[j]->day, arr_2[j]->month, arr_2[j]->year, arr_2[j]->item_name, arr_2[j]->value);
+    }
+    else
+    {
+        printf(" | %d.%d.%d %s %f\n", arr_2[j]->day, arr_2[j]->month, arr_2[j]->year, arr_2[j]->item_name, arr_2[j]->value);
+    }
 }
 
 Record **_init_record(int size)
@@ -321,12 +344,20 @@ void _similarity(Record **r_1, Record **r_2, int size_1, int size_2)
         {
             if (r_1[i]->day == r_2[j]->day && r_1[i]->month == r_2[j]->month && r_1[i]->year == r_2[j]->year)
             {
-                _print_precord(r_2, j);
+                _print_precord(r_1, i, r_2, j);
+            }
+            else if (strcmp(r_1[i]->item_name, r_2[j]->item_name) == 0)
+            {
+                _print_precord(r_1, i, r_2, j);
+            }
+            else if (r_1[i]->value == r_2[j]->value)
+            {
+                _print_precord(r_1, i, r_2, j);
             }
         }
     }
 }
-
+// ***********************************************************
 // file to Record
 
 Record **_load_file(FILE *file, int size)
@@ -349,7 +380,7 @@ void _record_to_file(Record **arr, int size)
     // check if record is empty or not
     if (arr == NULL)
     {
-        _print_msg("Empty record");
+        _print_msg("Unsuccessful\n");
     }
     else
     {
@@ -388,6 +419,7 @@ void _merge_to_file(Record **r_1, Record **r_2, int size_1, int size_2, char *ty
         _record_to_file(merged_record, size_1 + size_2);
     }
 }
+// *********************************************************************************
 
 // *********************************************************
 
@@ -398,10 +430,10 @@ int main()
 
     FILE *file_1 = fopen("bill_1.txt", "r");
     FILE *file_2 = fopen("bill_2.txt", "r");
-    Record **record = _load_file(file_1, 1161);
-    // _print_record(record, 20);
-    sort(record, 1161, "date");
-    _record_to_file(record, 1161);
+    Record **record_1 = _load_file(file_1, 10);
+    Record **record_2 = _load_file(file_2, 10);
+
+    _similarity(record_1, record_2, 10, 10);
     fclose(file_2);
     fclose(file_1);
 }
