@@ -1,0 +1,1161 @@
+06.01.2010	furniture kitchen chair fly	17.250000
+09.01.2010	electronics smartphone apple	531.260010
+13.1.2010	electronics smartphone samsung	717.390015
+13.1.2010	electronics smartphone samsung	128.419998
+23.1.2010	construction tools welding fubag	896.809998
+24.1.2010	computers components motherboard asus	287.829987
+24.1.2010	electronics smartphone samsung	503.089996
+28.1.2010	electronics smartphone sony	1029.319946
+29.1.2010	electronics smartphone apple	515.669983
+06.03.2010	electronics smartphone samsung	128.419998
+19.3.2010	electronics clocks garmin	759.219971
+26.3.2010	computers notebook hp	1512.780029
+27.3.2010	appliances kitchen dishwasher gorenje	498.640015
+01.04.2010	electronics smartphone honor	283.119995
+08.04.2010	electronics smartphone oppo	257.380005
+16.4.2010	computers components cpu intel	459.470001
+19.4.2010	electronics audio subwoofer element	133.830002
+29.4.2010	electronics clocks tissot	861.280029
+30.4.2010	electronics audio headphone apple	160.570007
+01.05.2010	electronics smartphone samsung	733.609985
+03.05.2010	sport bicycle gt	643.260010
+03.05.2010	electronics video tv samsung	488.799988
+09.05.2010	electronics smartphone xiaomi	150.970001
+10.5.2010	electronics smartphone samsung	563.700012
+12.5.2010	computers peripherals printer lexmark	69.500000
+17.5.2010	electronics smartphone apple	949.469971
+20.5.2010	furniture bathroom bath cersanit	111.459999
+22.5.2010	electronics smartphone apple	1013.859985
+23.5.2010	computers peripherals keyboard defender	16.410000
+24.5.2010	electronics smartphone apple	486.799988
+24.5.2010	electronics smartphone apple	1348.609985
+25.5.2010	electronics smartphone nokia	128.419998
+27.5.2010	electronics smartphone xiaomi	419.320007
+27.5.2010	computers notebook apple	1402.869995
+04.06.2010	accessories bag karya	100.389999
+08.06.2010	electronics tablet acer	178.899994
+17.6.2010	computers notebook asus	903.729980
+18.6.2010	apparel shoes rieker	99.099998
+23.6.2010	construction tools drill hitachi	120.209999
+29.6.2010	electronics audio headphone apple	180.130005
+12.7.2010	electronics smartphone xiaomi	212.080002
+13.7.2010	computers notebook hp	411.339996
+19.7.2010	sport bicycle gt	643.260010
+24.7.2010	appliances kitchen refrigerators indesit	268.489990
+28.7.2010	electronics video tv sony	329.220001
+30.7.2010	electronics smartphone apple	1348.609985
+02.08.2010	computers notebook acer	511.980011
+04.08.2010	electronics smartphone meizu	127.870003
+05.08.2010	electronics smartphone xiaomi	553.169983
+07.08.2010	electronics audio headphone xiaomi	22.799999
+11.8.2010	electronics smartphone apple	722.400024
+16.8.2010	construction tools painting fubag	24.709999
+16.8.2010	electronics smartphone xiaomi	553.169983
+19.8.2010	furniture bedroom bed brw	145.690002
+25.8.2010	computers notebook asus	1672.890015
+28.8.2010	computers components motherboard asrock	100.239998
+29.8.2010	electronics audio headphone xiaomi	23.049999
+04.09.2010	electronics clocks casio	165.259995
+06.09.2010	sport bicycle cube	874.929993
+07.09.2010	apparel shoes keds fassen	62.810001
+12.9.2010	electronics audio subwoofer nakamichi	123.559998
+13.9.2010	electronics video tv samsung	617.440002
+16.9.2010	appliances kitchen refrigerators indesit	314.079987
+23.9.2010	electronics smartphone samsung	139.679993
+24.9.2010	appliances kitchen washer lg	712.869995
+5.10.2010	electronics smartphone samsung	139.639999
+11.10.2010	apparel shoes keds fassen	44.790001
+11.10.2010	electronics smartphone huawei	540.270020
+18.10.2010	electronics clocks casio	379.420013
+21.10.2010	computers notebook hp	774.020020
+21.10.2010	electronics video tv samsung	282.029999
+24.10.2010	apparel underwear milavitsa	33.349998
+27.10.2010	electronics audio headphone xiaomi	51.459999
+2.11.2010	electronics video tv lg	501.920013
+6.11.2010	apparel shoes fassen	35.779999
+7.11.2010	electronics telephone jinga	17.150000
+8.11.2010	electronics smartphone xiaomi	218.509995
+17.11.2010	electronics smartphone sony	952.150024
+18.11.2010	auto accessories player jvc	46.330002
+18.11.2010	electronics smartphone huawei	149.300003
+19.11.2010	appliances environment air_heater elenberg	33.439999
+25.11.2010	electronics smartphone samsung	242.630005
+27.11.2010	appliances personal massager gezatone	30.120001
+29.11.2010	electronics smartphone samsung	128.419998
+30.11.2010	electronics smartphone oneplus	461.609985
+11.12.2010	computers components videocards palit	334.309998
+16.12.2010	appliances personal massager bradex	12.360000
+21.12.2010	electronics smartphone apple	1173.599976
+22.12.2010	electronics smartphone nokia	152.789993
+28.12.2010	apparel shoes etor	100.389999
+28.12.2010	electronics audio acoustic yamaha	116.860001
+02.01.2011	computers notebook asus	476.179993
+04.01.2011	appliances kitchen washer hotpoint-ariston	307.579987
+05.01.2011	electronics telephone jinga	17.150000
+05.01.2011	computers notebook asus	424.700012
+11.1.2011	electronics audio headphone xiaomi	22.799999
+13.1.2011	appliances environment water_heater artel	85.820000
+14.1.2011	electronics smartphone samsung	275.250000
+15.1.2011	electronics smartphone apple	1348.609985
+15.1.2011	electronics smartphone samsung	362.290009
+16.1.2011	electronics smartphone samsung	242.630005
+19.1.2011	electronics smartphone apple	531.260010
+22.1.2011	electronics smartphone huawei	151.869995
+23.1.2011	electronics smartphone samsung	242.630005
+25.1.2011	electronics smartphone apple	739.809998
+29.1.2011	electronics smartphone samsung	128.419998
+06.03.2011	construction tools drill dewalt	226.830002
+07.03.2011	electronics smartphone xiaomi	138.710007
+16.3.2011	electronics smartphone apple	928.179993
+19.3.2011	furniture bedroom bed sv	257.149994
+30.3.2011	apparel shirt jordan	102.709999
+30.3.2011	electronics smartphone huawei	127.330002
+30.3.2011	electronics audio headphone xiaomi	70.790001
+03.04.2011	electronics smartphone apple	1091.329956
+06.04.2011	appliances kitchen refrigerators lg	463.070007
+06.04.2011	appliances kitchen refrigerators indesit	276.010010
+07.04.2011	electronics video tv blaupunkt	514.789978
+10.4.2011	electronics smartphone nokia	118.099998
+11.4.2011	appliances kitchen washer samsung	398.950012
+11.4.2011	electronics smartphone sony	179.669998
+16.4.2011	electronics smartphone xiaomi	282.880005
+16.4.2011	appliances personal massager gezatone	30.120001
+22.4.2011	electronics smartphone samsung	733.609985
+22.4.2011	electronics video tv shivaki	270.019989
+28.4.2011	computers notebook apple	2496.590088
+08.05.2011	apparel shoes biomecanics	64.349998
+10.5.2011	furniture living_room cabinet permanence	988.419983
+11.5.2011	electronics smartphone apple	732.070007
+17.5.2011	electronics smartphone apple	949.469971
+19.5.2011	computers desktop netechnics	772.190002
+28.5.2011	electronics audio headphone meizu	71.820000
+04.06.2011	apparel underwear obsessive	20.340000
+06.06.2011	electronics smartphone xiaomi	269.779999
+13.6.2011	electronics clocks casio	26.510000
+16.6.2011	furniture kitchen chair domini	97.809998
+21.6.2011	electronics clocks casio	165.259995
+24.6.2011	apparel shoes respect	86.230003
+27.6.2011	apparel shirt jordan	102.709999
+29.6.2011	electronics audio headphone huawei	89.779999
+30.6.2011	construction tools drill alteco	44.529999
+04.07.2011	electronics clocks casio	165.259995
+05.07.2011	electronics smartphone apple	949.469971
+10.7.2011	electronics smartphone apple	732.070007
+11.7.2011	computers notebook apple	1570.170044
+11.7.2011	apparel shirt jordan	102.709999
+13.7.2011	electronics clocks armani	293.440002
+13.7.2011	electronics clocks xiaomi	180.160004
+21.7.2011	electronics smartphone samsung	396.149994
+27.7.2011	apparel shoes nexpero	75.419998
+04.08.2011	electronics smartphone apple	1661.089966
+12.8.2011	electronics audio subwoofer phantom	15.440000
+15.8.2011	appliances kitchen blender vitek	39.279999
+15.8.2011	electronics smartphone samsung	362.290009
+16.8.2011	electronics smartphone samsung	313.779999
+17.8.2011	electronics smartphone apple	358.309998
+19.8.2011	electronics audio subwoofer pride	128.699997
+27.8.2011	electronics audio headphone apple	160.570007
+28.8.2011	electronics clocks tissot	1353.449951
+30.8.2011	electronics smartphone nokia	128.429993
+04.09.2011	appliances kitchen washer samsung	398.950012
+06.09.2011	kids dolls llorens	38.590000
+06.09.2011	electronics video tv samsung	488.799988
+10.9.2011	electronics smartphone apple	949.469971
+16.9.2011	electronics smartphone apple	1583.479980
+18.9.2011	electronics smartphone apple	717.630005
+29.9.2011	electronics tablet irbis	88.629997
+30.9.2011	appliances environment vacuum tefal	108.089996
+1.10.2011	electronics smartphone oneplus	540.299988
+2.10.2011	appliances kitchen washer samsung	476.170013
+4.10.2011	construction tools saw huter	87.519997
+4.10.2011	electronics smartphone apple	949.469971
+7.10.2011	apparel tshirt goodloot	8.730000
+11.10.2011	electronics audio headphone huawei	102.680000
+11.10.2011	appliances kitchen refrigerators samsung	1724.599976
+14.10.2011	electronics smartphone samsung	128.419998
+15.10.2011	electronics smartphone samsung	139.639999
+19.10.2011	electronics smartphone samsung	128.419998
+21.10.2011	appliances personal massager smile	17.719999
+21.10.2011	electronics clocks casio	77.629997
+25.10.2011	apparel shoes keds asics	51.480000
+29.10.2011	electronics smartphone sony	463.049988
+30.10.2011	electronics smartphone apple	1348.609985
+3.11.2011	appliances personal massager gezatone	81.339996
+4.11.2011	auto accessories player pioneer	64.349998
+4.11.2011	electronics smartphone apple	928.179993
+7.11.2011	computers components videocards palit	157.960007
+8.11.2011	furniture kitchen chair domini	30.889999
+10.11.2011	furniture kitchen chair fly	17.250000
+13.11.2011	electronics clocks apple	554.960022
+14.11.2011	electronics smartphone huawei	164.839996
+14.11.2011	electronics smartphone samsung	128.419998
+15.11.2011	electronics audio headphone steelseries	66.669998
+18.11.2011	electronics smartphone xiaomi	167.020004
+25.11.2011	electronics smartphone samsung	563.700012
+25.11.2011	appliances personal massager gezatone	30.120001
+26.11.2011	electronics clocks samsung	290.820007
+26.11.2011	electronics smartphone samsung	128.419998
+1.12.2011	electronics smartphone apple	591.250000
+1.12.2011	computers desktop sv	195.350006
+2.12.2011	electronics clocks xiaomi	180.160004
+4.12.2011	computers notebook apple	2496.590088
+9.12.2011	appliances kitchen washer hotpoint-ariston	307.579987
+9.12.2011	electronics smartphone samsung	771.940002
+10.12.2011	appliances environment water_heater ariston	112.129997
+12.12.2011	construction tools painting matrix	17.480000
+17.12.2011	electronics smartphone apple	1003.630005
+19.12.2011	apparel shoes burgerschuhe	102.449997
+21.12.2011	furniture kitchen chair zeta	16.959999
+28.12.2011	electronics audio subwoofer infinity	87.519997
+04.01.2012	appliances kitchen refrigerators haier	540.530029
+08.01.2012	electronics smartphone apple	1629.040039
+11.1.2012	furniture kitchen chair fly	17.250000
+14.1.2012	apparel shoes respect	59.200001
+24.1.2012	electronics smartphone xiaomi	478.260010
+28.1.2012	appliances environment water_heater oasis	32.660000
+29.1.2012	electronics smartphone oneplus	540.299988
+05.03.2012	electronics smartphone xiaomi	117.870003
+06.03.2012	electronics smartphone apple	531.260010
+09.03.2012	electronics video tv blaupunkt	514.789978
+12.3.2012	electronics smartphone samsung	242.720001
+13.3.2012	electronics smartphone samsung	550.729980
+17.3.2012	auto accessories compressor laston	113.930000
+17.3.2012	electronics smartphone vivo	463.309998
+23.3.2012	electronics audio headphone samsung	107.449997
+23.3.2012	electronics telephone jinga	17.150000
+23.3.2012	computers notebook xiaomi	1145.199951
+24.3.2012	furniture kitchen chair barneo	33.209999
+28.3.2012	electronics smartphone samsung	242.630005
+02.04.2012	electronics audio headphone xiaomi	23.049999
+11.4.2012	furniture kitchen chair domini	77.220001
+28.4.2012	appliances environment water_heater oasis	25.480000
+04.05.2012	electronics smartphone nokia	128.419998
+09.05.2012	apparel shoes keds tamaris	77.220001
+12.5.2012	electronics audio subwoofer phantom	15.440000
+20.5.2012	computers components motherboard gigabyte	38.750000
+22.5.2012	electronics smartphone xiaomi	150.970001
+27.5.2012	computers components videocards palit	141.320007
+28.5.2012	electronics audio headphone xiaomi	22.799999
+28.5.2012	electronics smartphone xiaomi	382.570007
+12.6.2012	electronics audio subwoofer avatar	41.189999
+15.6.2012	furniture bedroom bed kmk	216.199997
+17.6.2012	electronics video tv lg	499.339996
+17.6.2012	electronics smartphone samsung	275.250000
+18.6.2012	computers notebook asus	492.929993
+19.6.2012	electronics telephone texet	14.700000
+20.6.2012	electronics smartphone apple	949.469971
+22.6.2012	appliances environment vacuum samsung	669.179993
+23.6.2012	computers notebook apple	1570.170044
+29.6.2012	electronics audio subwoofer pioneer	58.689999
+02.07.2012	kids dolls llorens	38.590000
+05.07.2012	electronics smartphone apple	787.500000
+15.7.2012	electronics smartphone apple	1348.609985
+19.7.2012	computers notebook apple	2342.149902
+22.7.2012	electronics smartphone xiaomi	553.169983
+26.7.2012	apparel shoes moccasins respect	64.610001
+27.7.2012	apparel shirt dion	29.600000
+28.7.2012	electronics smartphone samsung	362.290009
+13.8.2012	electronics tablet acer	178.899994
+19.8.2012	auto accessories player ams	221.369995
+20.8.2012	electronics smartphone huawei	540.270020
+21.8.2012	electronics smartphone xiaomi	94.699997
+21.8.2012	appliances kitchen dishwasher samsung	463.309998
+29.8.2012	electronics smartphone xiaomi	84.650002
+02.09.2012	appliances personal massager smile	17.719999
+10.9.2012	electronics smartphone xiaomi	111.559998
+18.9.2012	construction tools saw ryobi	63.160000
+28.9.2012	furniture kitchen table brw	207.210007
+10.10.2012	electronics audio headphone acme	69.239998
+13.10.2012	computers notebook apple	1338.500000
+15.10.2012	electronics smartphone samsung	128.419998
+17.10.2012	electronics smartphone samsung	172.229996
+20.10.2012	computers notebook apple	1402.869995
+23.10.2012	electronics smartphone samsung	362.290009
+8.11.2012	electronics smartphone samsung	1253.089966
+11.11.2012	computers notebook hp	360.089996
+12.11.2012	electronics smartphone xiaomi	94.699997
+14.11.2012	electronics smartphone samsung	128.419998
+14.11.2012	electronics smartphone apple	973.409973
+18.11.2012	electronics smartphone xiaomi	218.539993
+22.11.2012	apparel shoes etor	108.110001
+25.11.2012	electronics video tv samsung	282.029999
+28.11.2012	electronics smartphone apple	735.049988
+2.12.2012	electronics smartphone apple	1189.189941
+2.12.2012	appliances kitchen dishwasher beko	298.160004
+6.12.2012	computers components motherboard asrock	100.239998
+6.12.2012	appliances personal massager masstone	13.900000
+12.12.2012	computers components motherboard gigabyte	50.610001
+17.12.2012	electronics video tv samsung	289.329987
+19.12.2012	electronics smartphone samsung	193.259995
+20.12.2012	auto accessories player pioneer	56.630001
+26.12.2012	computers notebook hp	514.789978
+27.12.2012	electronics smartphone meizu	113.260002
+28.12.2012	electronics audio subwoofer kenwood	72.070000
+03.01.2013	computers components motherboard asus	248.660004
+04.01.2013	electronics smartphone xiaomi	382.570007
+08.01.2013	furniture kitchen chair zeta	16.959999
+09.01.2013	computers notebook apple	1402.869995
+16.1.2013	electronics smartphone apple	1348.609985
+17.1.2013	computers notebook acer	2312.800049
+21.1.2013	electronics smartphone apple	732.070007
+22.1.2013	electronics video tv samsung	488.799988
+22.1.2013	electronics smartphone samsung	503.089996
+29.1.2013	electronics smartphone xiaomi	553.169983
+30.1.2013	electronics smartphone huawei	254.710007
+03.03.2013	electronics audio headphone xiaomi	22.799999
+03.03.2013	electronics video tv samsung	617.440002
+04.03.2013	electronics smartphone apple	486.799988
+07.03.2013	computers notebook acer	308.859985
+08.03.2013	electronics smartphone xiaomi	138.710007
+08.03.2013	electronics smartphone xiaomi	153.490005
+14.3.2013	electronics smartphone samsung	128.419998
+17.3.2013	electronics smartphone apple	1661.089966
+02.04.2013	electronics smartphone xiaomi	320.420013
+05.04.2013	construction tools saw ryobi	110.070000
+07.04.2013	computers components cpu intel	459.470001
+27.4.2013	electronics video tv sony	384.739990
+28.4.2013	electronics smartphone samsung	242.630005
+02.05.2013	electronics smartphone samsung	128.419998
+04.05.2013	electronics audio headphone xiaomi	95.500000
+10.5.2013	electronics smartphone xiaomi	218.539993
+11.5.2013	appliances kitchen hood turbo	51.459999
+12.5.2013	electronics clocks casio	26.510000
+15.5.2013	electronics smartphone samsung	643.229980
+18.5.2013	appliances kitchen refrigerators lg	527.429993
+25.5.2013	electronics smartphone xiaomi	138.740005
+03.06.2013	computers notebook hp	432.420013
+03.06.2013	electronics clocks casio	24.450001
+06.06.2013	electronics telephone inoi	15.080000
+08.06.2013	electronics video tv artel	228.759995
+13.6.2013	apparel shoes keds puma	100.129997
+26.6.2013	electronics smartphone xiaomi	176.320007
+01.07.2013	construction tools saw ryobi	110.070000
+01.07.2013	electronics smartphone xiaomi	198.179993
+04.07.2013	electronics clocks apple	617.520020
+06.07.2013	computers notebook lenovo	385.850006
+09.07.2013	electronics smartphone xiaomi	218.539993
+14.7.2013	computers components motherboard asus	248.660004
+21.7.2013	electronics smartphone xiaomi	212.080002
+21.7.2013	electronics smartphone samsung	242.630005
+26.7.2013	electronics smartphone apple	787.500000
+29.7.2013	electronics smartphone xiaomi	85.879997
+04.08.2013	furniture kitchen chair domini	97.809998
+04.08.2013	electronics smartphone samsung	313.779999
+04.08.2013	electronics clocks longines	1935.699951
+04.08.2013	apparel shoes keds asics	51.480000
+06.08.2013	electronics smartphone xiaomi	398.720001
+09.08.2013	electronics smartphone samsung	503.089996
+16.8.2013	kids dolls llorens	38.590000
+22.8.2013	electronics smartphone samsung	733.609985
+23.8.2013	computers notebook acer	411.829987
+26.8.2013	appliances environment vacuum thomas	247.080002
+29.8.2013	electronics smartphone xiaomi	183.270004
+12.9.2013	electronics smartphone xiaomi	553.169983
+13.9.2013	electronics smartphone xiaomi	153.490005
+16.9.2013	electronics smartphone meizu	205.669998
+17.9.2013	electronics smartphone samsung	172.229996
+20.9.2013	electronics smartphone apple	617.520020
+28.9.2013	apparel shoes keds adidas	128.449997
+30.9.2013	electronics smartphone apple	1013.859985
+2.10.2013	electronics audio headphone xiaomi	70.790001
+14.10.2013	electronics smartphone samsung	254.820007
+16.10.2013	electronics smartphone samsung	172.229996
+21.10.2013	electronics smartphone apple	1661.089966
+24.10.2013	electronics smartphone xiaomi	435.019989
+25.10.2013	computers peripherals printer epson	174.729996
+28.10.2013	electronics smartphone meizu	257.149994
+29.10.2013	electronics smartphone xiaomi	330.630005
+3.11.2013	electronics smartphone xiaomi	82.110001
+3.11.2013	electronics smartphone apple	577.890015
+6.11.2013	electronics smartphone apple	532.570007
+13.11.2013	electronics smartphone xiaomi	153.490005
+6.12.2013	electronics smartphone xiaomi	203.270004
+6.12.2013	electronics clocks armani	270.790009
+13.12.2013	apparel trousers jordan	83.529999
+16.12.2013	electronics smartphone apple	1348.609985
+19.12.2013	electronics clocks tissot	861.280029
+26.12.2013	electronics smartphone meizu	241.710007
+05.01.2014	computers notebook hp	432.420013
+05.01.2014	electronics audio music_tools piano cortland	132.100006
+11.1.2014	appliances kitchen dishwasher samsung	411.829987
+12.1.2014	electronics smartphone apple	1337.229980
+22.1.2014	electronics smartphone apple	1013.859985
+23.1.2014	appliances kitchen washer lg	308.649994
+26.1.2014	electronics smartphone apple	928.179993
+26.1.2014	apparel shoes keds respect	44.790001
+27.1.2014	computers notebook asus	694.969971
+28.1.2014	construction tools saw ryobi	110.070000
+28.1.2014	appliances kitchen washer beko	180.160004
+04.03.2014	electronics smartphone meizu	241.710007
+06.03.2014	apparel shoes keds nike	61.570000
+09.03.2014	furniture bathroom bath cersanit	111.459999
+11.3.2014	electronics smartphone apple	928.380005
+12.3.2014	electronics smartphone xiaomi	195.369995
+13.3.2014	electronics smartphone samsung	139.639999
+14.3.2014	electronics smartphone huawei	254.710007
+19.3.2014	electronics smartphone samsung	771.940002
+20.3.2014	electronics video tv artel	146.850006
+26.3.2014	computers notebook hp	580.890015
+29.3.2014	electronics smartphone apple	532.570007
+30.3.2014	electronics smartphone samsung	275.250000
+04.04.2014	electronics smartphone samsung	370.640015
+05.04.2014	electronics smartphone apple	1348.609985
+14.4.2014	appliances personal massager vitek	43.980000
+16.4.2014	accessories bag apple	30.070000
+04.05.2014	electronics smartphone apple	1013.859985
+13.5.2014	electronics audio music_tools piano cortland	132.100006
+14.5.2014	appliances kitchen dishwasher bosch	684.440002
+18.5.2014	electronics smartphone xiaomi	330.630005
+20.5.2014	electronics audio headphone xiaomi	70.790001
+21.5.2014	apparel shoes moccasins respect	64.610001
+21.5.2014	electronics smartphone apple	1091.329956
+21.5.2014	electronics smartphone apple	486.799988
+23.5.2014	electronics clocks samsung	290.820007
+28.5.2014	computers notebook hp	411.589996
+03.06.2014	electronics smartphone xiaomi	138.740005
+03.06.2014	furniture kitchen chair domini	30.889999
+08.06.2014	electronics smartphone samsung	139.639999
+08.06.2014	computers peripherals keyboard defender	16.410000
+16.6.2014	electronics smartphone samsung	242.630005
+20.6.2014	electronics smartphone samsung	643.229980
+26.6.2014	electronics smartphone apple	949.469971
+02.07.2014	construction tools light stanley	29.860001
+06.07.2014	electronics audio headphone xiaomi	22.799999
+12.7.2014	apparel shoes rooman	48.389999
+17.7.2014	electronics video tv artel	334.109985
+20.7.2014	electronics clocks apple	552.140015
+21.7.2014	computers peripherals printer canon	151.139999
+24.7.2014	kids dolls llorens	38.590000
+02.08.2014	appliances kitchen hood turbo	51.459999
+06.08.2014	electronics video tv samsung	488.799988
+06.08.2014	construction tools welding magnetta	254.779999
+08.08.2014	electronics smartphone apple	722.400024
+09.08.2014	appliances kitchen refrigerators lg	488.809998
+14.8.2014	apparel underwear milavitsa	30.150000
+15.8.2014	electronics smartphone samsung	643.229980
+18.8.2014	electronics smartphone xiaomi	117.870003
+18.8.2014	computers components videocards palit	141.320007
+21.8.2014	electronics video tv sony	329.220001
+03.09.2014	appliances personal massager masstone	13.900000
+08.09.2014	construction tools welding magnetta	254.779999
+09.09.2014	electronics smartphone xiaomi	92.639999
+16.9.2014	appliances environment air_heater midea	47.619999
+18.9.2014	electronics smartphone huawei	334.369995
+21.9.2014	apparel shoes keds spur	35.779999
+27.9.2014	electronics smartphone xiaomi	138.710007
+29.9.2014	electronics smartphone samsung	128.419998
+30.9.2014	computers components videocards palit	334.309998
+3.10.2014	construction tools drill dewalt	98.510002
+5.10.2014	computers notebook hp	406.679993
+7.10.2014	electronics smartphone samsung	643.229980
+7.10.2014	construction tools saw ryobi	63.160000
+9.10.2014	construction tools welding magnetta	254.779999
+10.10.2014	apparel tshirt fila	30.629999
+10.10.2014	electronics smartphone samsung	503.089996
+12.10.2014	electronics smartphone samsung	643.229980
+15.10.2014	appliances environment water_heater aqua	30.610001
+18.10.2014	appliances kitchen washer samsung	437.329987
+20.10.2014	electronics clocks xiaomi	69.410004
+22.10.2014	auto accessories player ams	221.369995
+23.10.2014	electronics smartphone xiaomi	218.509995
+30.10.2014	electronics smartphone xiaomi	84.650002
+7.11.2014	electronics clocks xiaomi	70.529999
+9.11.2014	computers notebook acer	823.679993
+12.12.2014	electronics audio headphone apple	160.570007
+22.12.2014	electronics clocks casio	79.540001
+24.12.2014	appliances kitchen dishwasher bosch	523.799988
+02.01.2015	electronics smartphone samsung	242.630005
+14.1.2015	electronics smartphone nokia	118.099998
+14.1.2015	computers components motherboard asus	287.829987
+18.1.2015	furniture bedroom bed sv	386.369995
+20.1.2015	electronics smartphone samsung	242.630005
+21.1.2015	electronics smartphone bq	71.449997
+21.1.2015	apparel shoes keds fassen	44.790001
+26.1.2015	electronics smartphone xiaomi	138.710007
+28.1.2015	electronics audio headphone huawei	102.680000
+29.1.2015	appliances environment water_heater oasis	25.480000
+08.03.2015	apparel shoes keds puma	94.980003
+08.03.2015	appliances sewing_machine janome	293.649994
+08.03.2015	electronics smartphone apple	949.469971
+12.3.2015	appliances kitchen refrigerators lg	463.070007
+25.3.2015	electronics smartphone xiaomi	203.089996
+25.3.2015	computers notebook asus	545.650024
+01.04.2015	electronics smartphone apple	928.179993
+10.4.2015	electronics telephone inoi	15.080000
+12.4.2015	electronics video tv sony	539.780029
+16.4.2015	electronics smartphone samsung	717.390015
+16.4.2015	appliances environment water_heater aqua	30.860001
+19.4.2015	electronics smartphone apple	1583.479980
+21.4.2015	electronics smartphone oppo	166.410004
+29.4.2015	computers notebook acer	1209.550049
+29.4.2015	computers components cooler deepcool	9.830000
+30.4.2015	electronics smartphone samsung	242.720001
+02.05.2015	electronics smartphone apple	949.469971
+08.05.2015	appliances sewing_machine janome	253.550003
+09.05.2015	electronics smartphone xiaomi	84.650002
+11.5.2015	apparel shoes nexpero	75.419998
+18.5.2015	appliances environment vacuum thomas	247.080002
+22.5.2015	appliances personal massager bradex	12.360000
+23.5.2015	appliances environment water_heater oasis	32.660000
+29.5.2015	sport bicycle phoenix	179.889999
+29.5.2015	electronics smartphone apple	722.400024
+03.06.2015	furniture bedroom bed brw	525.109985
+15.6.2015	electronics smartphone xiaomi	280.570007
+17.6.2015	accessories wallet picard	63.060001
+19.6.2015	electronics audio headphone harper	25.709999
+23.6.2015	electronics smartphone apple	949.469971
+26.6.2015	electronics clocks apple	640.690002
+01.07.2015	construction tools saw dwt	66.360001
+03.07.2015	electronics smartphone xiaomi	385.850006
+04.07.2015	electronics smartphone apple	486.799988
+07.07.2015	electronics clocks casio	15.190000
+07.07.2015	electronics smartphone samsung	1544.420044
+08.07.2015	electronics smartphone apple	1665.359985
+08.07.2015	electronics audio headphone acme	51.220001
+11.7.2015	furniture kitchen chair fly	17.250000
+19.7.2015	electronics tablet lenovo	230.380005
+23.7.2015	electronics video tv blaupunkt	514.789978
+24.7.2015	electronics smartphone apple	617.520020
+28.7.2015	electronics smartphone xiaomi	269.779999
+29.7.2015	appliances personal massager vitek	43.980000
+30.7.2015	electronics smartphone xiaomi	212.080002
+02.08.2015	electronics smartphone samsung	193.259995
+09.08.2015	electronics smartphone samsung	242.720001
+16.8.2015	electronics smartphone samsung	286.859985
+18.8.2015	apparel shoes keds nike	100.389999
+27.8.2015	electronics smartphone huawei	91.610001
+13.9.2015	electronics smartphone sony	952.150024
+13.9.2015	electronics smartphone apple	1348.609985
+16.9.2015	apparel shoes keds baden	71.820000
+17.9.2015	electronics audio headphone xiaomi	51.459999
+19.9.2015	electronics audio headphone apple	160.570007
+21.9.2015	computers notebook hp	514.789978
+21.9.2015	kids dolls llorens	38.590000
+23.9.2015	electronics smartphone samsung	216.179993
+28.9.2015	electronics audio headphone elari	61.650002
+7.10.2015	electronics smartphone huawei	164.949997
+11.10.2015	electronics camera video gopro	231.410004
+11.10.2015	electronics audio headphone xiaomi	22.799999
+12.10.2015	furniture kitchen table komfort-s	39.360001
+14.10.2015	appliances kitchen washer samsung	319.140015
+21.10.2015	apparel shoes rieker	73.360001
+22.10.2015	auto accessories player alpine	120.980003
+23.10.2015	electronics smartphone apple	949.469971
+27.10.2015	kids toys disney	10.350000
+30.10.2015	computers components motherboard asus	248.660004
+30.10.2015	electronics video tv samsung	1029.369995
+1.11.2015	electronics smartphone xiaomi	431.309998
+3.11.2015	electronics smartphone apple	486.799988
+5.11.2015	electronics smartphone apple	1013.859985
+5.11.2015	apparel tshirt nike	32.180000
+17.11.2015	computers notebook apple	2311.489990
+19.11.2015	electronics smartphone samsung	242.630005
+21.11.2015	computers components cpu intel	270.640015
+23.11.2015	electronics smartphone xiaomi	153.490005
+25.11.2015	electronics smartphone apple	949.469971
+28.11.2015	electronics video tv samsung	488.799988
+9.12.2015	computers notebook asus	1672.890015
+11.12.2015	construction tools painting fubag	13.000000
+13.12.2015	kids toys disney	10.350000
+15.12.2015	electronics smartphone samsung	460.500000
+18.12.2015	electronics smartphone xiaomi	211.919998
+21.12.2015	construction tools welding fubag	896.809998
+24.12.2015	accessories wallet picard	63.060001
+25.12.2015	electronics smartphone apple	531.260010
+06.01.2016	electronics clocks apple	453.160004
+09.01.2016	apparel shoes etor	100.389999
+09.01.2016	electronics smartphone samsung	643.229980
+11.1.2016	appliances kitchen microwave arg	56.599998
+13.1.2016	apparel shoes keds fassen	62.810001
+16.1.2016	electronics smartphone xiaomi	406.179993
+16.1.2016	electronics smartphone xiaomi	118.019997
+19.1.2016	electronics smartphone apple	787.500000
+19.1.2016	auto accessories player pioneer	229.089996
+20.1.2016	furniture kitchen chair domini	30.889999
+21.1.2016	electronics audio headphone apple	160.570007
+24.1.2016	computers components videocards asrock	264.130005
+24.1.2016	electronics audio headphone xiaomi	51.459999
+28.1.2016	appliances environment water_heater aqua	30.610001
+29.1.2016	electronics video tv samsung	488.799988
+30.1.2016	appliances kitchen refrigerators beko	293.559998
+02.03.2016	electronics smartphone samsung	242.630005
+03.03.2016	computers components cpu amd	143.940002
+10.3.2016	electronics smartphone samsung	275.250000
+12.3.2016	electronics smartphone apple	1665.359985
+12.3.2016	appliances environment vacuum arnica	192.800003
+15.3.2016	construction tools light stanley	29.860001
+22.3.2016	furniture bedroom bed sv	386.369995
+24.3.2016	construction tools welding magnetta	254.779999
+25.3.2016	electronics smartphone xiaomi	220.779999
+28.3.2016	apparel jumper conceptclub	22.910000
+06.04.2016	computers notebook acer	283.089996
+06.04.2016	electronics smartphone apple	1364.000000
+10.4.2016	electronics smartphone xiaomi	218.539993
+12.4.2016	electronics smartphone samsung	242.630005
+15.4.2016	electronics smartphone samsung	128.419998
+16.4.2016	appliances personal massager smile	17.719999
+18.4.2016	electronics smartphone samsung	643.229980
+19.4.2016	electronics video tv samsung	488.799988
+23.4.2016	appliances environment vacuum elenberg	32.869999
+28.4.2016	appliances personal massager gezatone	30.120001
+29.4.2016	apparel shoes rieker	101.680000
+30.4.2016	kids toys disney	10.350000
+02.05.2016	accessories wallet picard	100.389999
+03.05.2016	apparel shoes fassen	51.220001
+03.05.2016	electronics smartphone oppo	257.149994
+06.05.2016	electronics telephone inoi	15.080000
+09.05.2016	apparel shoes etor	108.110001
+10.5.2016	furniture bedroom bed sv	386.369995
+10.5.2016	electronics smartphone samsung	643.229980
+14.5.2016	electronics smartphone samsung	172.220001
+18.5.2016	electronics camera video gopro	437.510010
+20.5.2016	furniture kitchen chair nika	47.770000
+22.5.2016	appliances kitchen oven elenberg	45.840000
+24.5.2016	electronics clocks samsung	290.820007
+25.5.2016	appliances environment vacuum samsung	437.329987
+26.5.2016	electronics video tv changhong	239.130005
+26.5.2016	electronics smartphone apple	949.469971
+07.06.2016	electronics audio headphone xiaomi	23.049999
+09.06.2016	computers components motherboard asrock	100.239998
+19.6.2016	furniture bedroom bed stendmebel	176.039993
+23.6.2016	electronics smartphone apple	787.500000
+26.6.2016	electronics smartphone oppo	592.010010
+01.07.2016	electronics audio headphone xiaomi	12.840000
+08.07.2016	appliances kitchen dishwasher bosch	523.799988
+12.7.2016	construction tools welding magnetta	254.779999
+14.7.2016	appliances kitchen washer samsung	476.170013
+19.7.2016	electronics smartphone samsung	548.950012
+20.7.2016	computers peripherals printer xerox	101.160004
+21.7.2016	electronics smartphone xiaomi	218.539993
+24.7.2016	electronics audio headphone xiaomi	95.500000
+15.8.2016	apparel shoes respect	23.940001
+16.8.2016	auto accessories videoregister anytek	100.389999
+18.8.2016	electronics smartphone apple	1453.000000
+18.8.2016	electronics smartphone samsung	275.250000
+22.8.2016	furniture bedroom bed brw	429.869995
+25.8.2016	auto accessories winch t-max	645.830017
+26.8.2016	electronics smartphone meizu	241.710007
+28.8.2016	computers components cooler aerocool	3.320000
+29.8.2016	electronics smartphone samsung	275.250000
+30.8.2016	electronics audio headphone huawei	89.779999
+30.8.2016	electronics video tv sony	539.780029
+04.09.2016	electronics smartphone samsung	128.419998
+18.9.2016	electronics clocks samsung	257.869995
+20.9.2016	electronics audio music_tools piano cortland	84.940002
+21.9.2016	apparel shoes keds fila	95.320000
+25.9.2016	furniture bedroom bed sv	257.149994
+25.9.2016	electronics clocks xiaomi	245.539993
+27.9.2016	electronics smartphone xiaomi	197.550003
+27.9.2016	electronics smartphone samsung	254.820007
+29.9.2016	electronics smartphone meizu	159.259995
+30.9.2016	appliances kitchen refrigerators samsung	499.940002
+4.10.2016	electronics audio headphone xiaomi	22.799999
+5.10.2016	kids dolls llorens	48.880001
+10.10.2016	electronics smartphone samsung	128.419998
+13.10.2016	accessories bag karya	74.650002
+18.10.2016	appliances kitchen hood midea	128.679993
+23.10.2016	electronics smartphone oneplus	461.609985
+30.10.2016	electronics video tv artel	146.850006
+2.11.2016	electronics smartphone xiaomi	218.539993
+3.11.2016	electronics clocks orient	66.669998
+12.11.2016	electronics smartphone huawei	334.369995
+14.11.2016	electronics clocks tissot	1889.369995
+8.12.2016	electronics video tv toshiba	370.670013
+9.12.2016	electronics smartphone samsung	128.419998
+11.12.2016	electronics smartphone xiaomi	553.169983
+13.12.2016	electronics smartphone samsung	193.220001
+14.12.2016	electronics smartphone apple	1665.359985
+27.12.2016	electronics video tv yasin	115.750000
+01.01.2017	electronics clocks xiaomi	245.539993
+01.01.2017	construction tools saw ryobi	63.160000
+03.01.2017	electronics audio subwoofer nakamichi	123.559998
+04.01.2017	apparel shoes keds nike	61.570000
+06.01.2017	electronics smartphone nokia	290.109985
+11.1.2017	electronics smartphone apple	722.400024
+11.1.2017	electronics smartphone apple	1027.589966
+02.03.2017	computers notebook hp	849.190002
+05.03.2017	electronics video tv changhong	239.130005
+07.03.2017	electronics video tv yasin	115.750000
+09.03.2017	electronics smartphone samsung	139.679993
+10.3.2017	electronics smartphone xiaomi	167.020004
+15.3.2017	electronics tablet apple	1518.439941
+20.3.2017	electronics smartphone samsung	550.729980
+20.3.2017	construction tools drill dewalt	150.949997
+24.3.2017	appliances environment vacuum samsung	669.179993
+25.3.2017	computers notebook asus	849.419983
+27.3.2017	furniture kitchen chair zeta	6.410000
+30.3.2017	electronics video tv artel	228.759995
+02.04.2017	electronics smartphone apple	1583.479980
+10.4.2017	electronics audio subwoofer alphard	38.610001
+11.4.2017	electronics smartphone apple	717.630005
+11.4.2017	construction tools welding resanta	25.200001
+13.4.2017	electronics smartphone xiaomi	203.270004
+14.4.2017	electronics smartphone huawei	266.000000
+14.4.2017	electronics smartphone samsung	242.630005
+15.4.2017	appliances personal massager gezatone	39.900002
+16.4.2017	electronics smartphone samsung	172.229996
+23.4.2017	electronics smartphone huawei	257.119995
+27.4.2017	electronics smartphone apple	949.469971
+30.4.2017	electronics smartphone huawei	266.000000
+01.05.2017	electronics smartphone samsung	172.229996
+07.05.2017	appliances kitchen washer samsung	386.079987
+12.5.2017	electronics smartphone oppo	178.869995
+13.5.2017	electronics video tv samsung	488.799988
+19.5.2017	electronics smartphone apple	928.380005
+21.5.2017	electronics tablet samsung	110.360001
+22.5.2017	electronics clocks apple	551.409973
+23.5.2017	electronics video tv yasin	374.500000
+30.5.2017	appliances kitchen refrigerators bosch	450.440002
+06.06.2017	electronics smartphone xiaomi	150.970001
+08.06.2017	appliances personal massager smile	17.719999
+12.6.2017	electronics smartphone xiaomi	138.710007
+16.6.2017	electronics audio subwoofer nakamichi	123.559998
+26.6.2017	electronics smartphone samsung	313.779999
+30.6.2017	appliances kitchen refrigerators bosch	554.369995
+01.07.2017	electronics smartphone samsung	172.229996
+01.07.2017	electronics video tv artel	146.850006
+02.07.2017	apparel shoes respect	64.610001
+07.07.2017	electronics smartphone oneplus	540.299988
+07.07.2017	furniture kitchen chair mamadoma	34.750000
+11.7.2017	apparel shoes respect	79.019997
+15.7.2017	appliances kitchen washer samsung	476.170013
+15.7.2017	computers notebook asus	694.969971
+17.7.2017	electronics smartphone samsung	717.390015
+23.7.2017	apparel shoes respect	66.410004
+25.7.2017	electronics smartphone apple	1337.229980
+07.08.2017	furniture bedroom bed sv	386.369995
+09.08.2017	electronics smartphone apple	1177.609985
+18.8.2017	furniture bathroom bath cersanit	111.459999
+19.8.2017	electronics audio music_tools piano cortland	84.940002
+21.8.2017	electronics smartphone samsung	242.630005
+30.8.2017	electronics smartphone xiaomi	169.630005
+03.09.2017	electronics video tv samsung	488.799988
+04.09.2017	electronics smartphone samsung	139.679993
+07.09.2017	electronics smartphone apple	1665.359985
+18.9.2017	electronics clocks tissot	895.780029
+28.9.2017	apparel shoes respect	25.480000
+29.9.2017	electronics smartphone xiaomi	385.850006
+5.10.2017	computers notebook hp	514.559998
+5.10.2017	computers notebook apple	1402.869995
+11.10.2017	electronics clocks tissot	1050.219971
+15.10.2017	computers notebook hp	390.980011
+24.10.2017	construction tools saw graphite	85.290001
+29.10.2017	electronics smartphone apple	532.570007
+14.11.2017	appliances kitchen refrigerators hotpoint-ariston	552.109985
+17.11.2017	apparel shoes garvalin	35.259998
+18.11.2017	electronics smartphone xiaomi	334.369995
+24.11.2017	electronics smartphone apple	736.179993
+27.11.2017	electronics smartphone xiaomi	220.729996
+29.11.2017	appliances sewing_machine janome	293.649994
+29.11.2017	electronics smartphone samsung	1133.359985
+2.12.2017	electronics video tv artel	334.109985
+8.12.2017	electronics smartphone apple	949.469971
+12.12.2017	electronics smartphone xiaomi	489.070007
+18.12.2017	electronics smartphone oppo	128.679993
+23.12.2017	electronics smartphone samsung	733.609985
+25.12.2017	electronics smartphone samsung	172.229996
+26.12.2017	computers notebook apple	2496.590088
+28.12.2017	construction tools painting fubag	24.709999
+01.01.2018	computers desktop acer	874.929993
+04.01.2018	electronics smartphone samsung	242.630005
+07.01.2018	apparel shoes keds millionaire	79.019997
+11.1.2018	appliances kitchen refrigerators beko	238.300003
+13.1.2018	electronics clocks tissot	947.260010
+14.1.2018	electronics smartphone apple	1155.729980
+22.1.2018	furniture bedroom bed sv	386.369995
+22.1.2018	electronics audio headphone xiaomi	23.049999
+24.1.2018	electronics smartphone samsung	362.290009
+24.1.2018	electronics video tv sony	329.220001
+25.1.2018	electronics audio headphone meizu	71.820000
+26.1.2018	electronics smartphone apple	1415.479980
+27.1.2018	electronics smartphone xiaomi	74.389999
+29.1.2018	computers components motherboard asus	287.829987
+02.03.2018	electronics smartphone xiaomi	218.539993
+03.03.2018	computers desktop sv	195.350006
+05.03.2018	electronics smartphone apple	952.150024
+07.03.2018	electronics smartphone xiaomi	212.080002
+10.3.2018	electronics smartphone apple	949.469971
+11.3.2018	kids toys disney	10.350000
+12.3.2018	electronics smartphone xiaomi	85.970001
+14.3.2018	apparel shoes keds respect	71.820000
+18.3.2018	electronics video tv blaupunkt	514.789978
+18.3.2018	electronics video tv samsung	488.799988
+22.3.2018	apparel shoes respect	84.430000
+22.3.2018	electronics smartphone apple	1013.859985
+26.3.2018	computers notebook asus	694.969971
+29.3.2018	electronics smartphone oppo	128.679993
+30.3.2018	apparel shoes rieker	110.940002
+30.3.2018	electronics smartphone xiaomi	111.559998
+04.04.2018	electronics smartphone apple	1337.229980
+08.04.2018	electronics video tv lg	382.250000
+18.4.2018	electronics smartphone samsung	720.219971
+18.4.2018	electronics audio subwoofer phantom	18.280001
+20.4.2018	electronics smartphone apple	1348.609985
+21.4.2018	electronics smartphone samsung	128.419998
+21.4.2018	electronics audio headphone apple	160.570007
+22.4.2018	electronics smartphone xiaomi	306.309998
+26.4.2018	computers notebook lenovo	475.690002
+26.4.2018	electronics clocks apple	317.670013
+27.4.2018	electronics smartphone samsung	128.419998
+28.4.2018	electronics smartphone sony	463.049988
+29.4.2018	apparel tshirt harley-davidson	75.940002
+05.05.2018	electronics smartphone samsung	275.250000
+07.05.2018	electronics smartphone samsung	275.250000
+13.5.2018	electronics smartphone samsung	242.630005
+13.5.2018	appliances kitchen refrigerators atlant	283.119995
+19.5.2018	electronics video tv artel	146.850006
+25.5.2018	computers components cooler deepcool	14.810000
+10.6.2018	computers desktop sv	195.350006
+11.6.2018	appliances personal massager gezatone	30.120001
+13.6.2018	electronics smartphone xiaomi	195.369995
+14.6.2018	kids dolls llorens	38.590000
+15.6.2018	electronics smartphone huawei	266.000000
+16.6.2018	apparel dress annaanna	46.330002
+21.6.2018	appliances environment vacuum samsung	123.529999
+26.6.2018	electronics audio headphone apple	188.940002
+13.7.2018	electronics smartphone apple	722.400024
+15.7.2018	electronics smartphone xiaomi	94.459999
+16.7.2018	electronics video tv lg	432.470001
+25.7.2018	electronics audio headphone apple	160.570007
+05.08.2018	electronics audio headphone sony	59.180000
+07.08.2018	electronics smartphone apple	949.469971
+16.8.2018	electronics smartphone huawei	151.990005
+26.8.2018	apparel shoes keds respect	71.820000
+26.8.2018	furniture bedroom bed sv	687.020020
+26.8.2018	auto accessories compressor denzel	157.279999
+28.8.2018	computers components cpu intel	239.130005
+30.8.2018	appliances kitchen washer midea	121.709999
+03.09.2018	electronics smartphone apple	949.469971
+03.09.2018	computers notebook lenovo	449.950012
+07.09.2018	electronics smartphone nokia	406.670013
+07.09.2018	apparel underwear milavitsa	33.349998
+08.09.2018	electronics smartphone samsung	242.630005
+09.09.2018	appliances environment vacuum samsung	669.179993
+11.9.2018	computers components motherboard asrock	54.570000
+13.9.2018	electronics smartphone xiaomi	117.870003
+14.9.2018	electronics clocks citizen	72.589996
+14.9.2018	electronics smartphone xiaomi	211.919998
+18.9.2018	construction tools drill dewalt	114.650002
+24.9.2018	electronics smartphone samsung	128.419998
+1.10.2018	electronics smartphone samsung	563.700012
+1.10.2018	computers notebook apple	2496.590088
+4.10.2018	electronics clocks samsung	257.790009
+11.10.2018	computers notebook acer	437.570007
+14.10.2018	electronics smartphone xiaomi	489.070007
+17.10.2018	electronics smartphone xiaomi	334.369995
+23.10.2018	appliances environment air_conditioner tcl	161.389999
+27.10.2018	electronics smartphone samsung	550.729980
+28.10.2018	electronics smartphone apple	599.229980
+30.10.2018	apparel shoes keds millionaire	61.520000
+2.11.2018	electronics smartphone huawei	946.729980
+7.11.2018	electronics audio headphone xiaomi	51.459999
+14.11.2018	apparel shoes nexpero	75.419998
+14.11.2018	electronics smartphone samsung	130.759995
+15.11.2018	appliances kitchen washer samsung	398.950012
+18.11.2018	electronics smartphone apple	949.469971
+22.11.2018	appliances kitchen refrigerators indesit	350.000000
+23.11.2018	construction tools drill kolner	32.959999
+30.11.2018	electronics video tv samsung	617.440002
+1.12.2018	computers notebook lenovo	449.950012
+6.12.2018	electronics smartphone samsung	733.609985
+9.12.2018	furniture bedroom bed sv	141.320007
+10.12.2018	computers notebook dell	797.700012
+11.12.2018	appliances kitchen dishwasher gorenje	498.640015
+15.12.2018	computers components motherboard gigabyte	50.610001
+19.12.2018	apparel shoes salamander	127.419998
+26.12.2018	electronics video tv samsung	289.329987
+02.01.2019	construction tools saw dwt	48.349998
+04.01.2019	electronics smartphone nokia	89.239998
+08.01.2019	appliances kitchen refrigerators arg	128.679993
+08.01.2019	apparel underwear milavitsa	18.559999
+08.01.2019	apparel shoes keds fila	97.790001
+18.1.2019	furniture kitchen chair domini	97.809998
+19.1.2019	electronics smartphone apple	1455.569946
+25.1.2019	appliances personal massager gezatone	39.900002
+28.1.2019	electronics clocks orient	61.520000
+01.03.2019	kids carriage belecoo	100.879997
+01.03.2019	electronics clocks garmin	2239.439941
+03.03.2019	computers notebook asus	360.339996
+04.03.2019	electronics smartphone xiaomi	253.880005
+05.03.2019	electronics audio headphone apple	189.910004
+15.3.2019	electronics tablet irbis	88.629997
+24.3.2019	electronics smartphone xiaomi	435.019989
+26.3.2019	electronics smartphone apple	732.070007
+26.3.2019	electronics smartphone samsung	503.089996
+06.04.2019	electronics smartphone xiaomi	463.149994
+06.04.2019	apparel shoes fly	89.580002
+07.04.2019	apparel shoes salamander	137.710007
+15.4.2019	appliances kitchen meat_grinder elenberg	38.590000
+15.4.2019	computers desktop neo	797.700012
+15.4.2019	computers notebook asus	903.729980
+19.4.2019	electronics smartphone apple	1348.609985
+23.4.2019	kids toys disney	10.350000
+23.4.2019	computers notebook acer	514.789978
+27.4.2019	computers notebook hp	923.830017
+28.4.2019	electronics smartphone xiaomi	202.399994
+28.4.2019	appliances personal massager gezatone	39.900002
+05.05.2019	construction tools saw ryobi	110.070000
+06.05.2019	electronics smartphone huawei	946.729980
+07.05.2019	electronics smartphone samsung	172.229996
+08.05.2019	electronics audio headphone elari	55.000000
+09.05.2019	electronics video tv samsung	289.329987
+10.5.2019	electronics smartphone xiaomi	153.490005
+11.5.2019	electronics smartphone apple	486.799988
+17.5.2019	electronics smartphone huawei	266.000000
+19.5.2019	electronics smartphone nokia	102.680000
+25.5.2019	electronics smartphone samsung	242.630005
+25.5.2019	electronics smartphone apple	949.469971
+25.5.2019	computers notebook apple	2496.590088
+25.5.2019	electronics smartphone meizu	159.259995
+27.5.2019	appliances kitchen washer hotpoint-ariston	307.579987
+07.06.2019	appliances kitchen hood midea	167.289993
+08.06.2019	electronics audio headphone xiaomi	51.459999
+11.6.2019	construction tools painting stels	52.119999
+20.6.2019	electronics smartphone huawei	243.250000
+23.6.2019	computers desktop lenovo	1793.359985
+24.6.2019	electronics video tv blaupunkt	283.119995
+26.6.2019	computers components cpu amd	143.940002
+26.6.2019	computers peripherals printer canon	151.139999
+27.6.2019	computers components cpu intel	447.369995
+09.07.2019	electronics smartphone honor	283.119995
+19.7.2019	electronics smartphone apple	732.070007
+22.7.2019	electronics smartphone apple	1665.359985
+26.7.2019	computers notebook asus	694.969971
+30.7.2019	electronics smartphone huawei	946.729980
+07.08.2019	electronics smartphone apple	1013.859985
+09.08.2019	electronics clocks tissot	947.260010
+11.8.2019	computers notebook hp	432.420013
+16.8.2019	electronics smartphone samsung	139.639999
+19.8.2019	electronics clocks apple	592.010010
+23.8.2019	electronics smartphone samsung	139.679993
+23.8.2019	appliances kitchen dishwasher gorenje	498.640015
+23.8.2019	electronics smartphone samsung	229.899994
+26.8.2019	electronics smartphone samsung	771.940002
+06.09.2019	appliances kitchen refrigerators lg	514.559998
+06.09.2019	apparel shoes keds reebok	118.150002
+19.9.2019	electronics smartphone apple	591.250000
+22.9.2019	apparel shoes respect	89.839996
+3.10.2019	electronics smartphone samsung	193.259995
+5.10.2019	computers notebook acer	1209.550049
+6.10.2019	appliances kitchen hood midea	128.679993
+9.10.2019	electronics smartphone xiaomi	198.179993
+9.10.2019	electronics smartphone xiaomi	150.970001
+13.10.2019	electronics smartphone samsung	242.720001
+24.10.2019	electronics clocks samsung	257.869995
+28.10.2019	appliances kitchen refrigerators lg	463.070007
+29.10.2019	electronics smartphone huawei	125.610001
+14.11.2019	appliances kitchen blender redmond	51.220001
+15.11.2019	computers desktop netechnics	772.190002
+18.11.2019	electronics clocks casio	165.259995
+25.11.2019	computers desktop neo	797.700012
+26.11.2019	apparel shoes respect	102.449997
+3.12.2019	computers notebook hp	411.589996
+7.12.2019	electronics smartphone huawei	266.000000
+7.12.2019	appliances kitchen washer beko	180.160004
+8.12.2019	electronics smartphone huawei	946.729980
+8.12.2019	appliances kitchen refrigerators indesit	272.799988
+13.12.2019	electronics smartphone xiaomi	212.080002
+22.12.2019	electronics smartphone samsung	286.859985
+22.12.2019	appliances kitchen dishwasher bosch	684.440002
+23.12.2019	electronics smartphone xiaomi	489.070007
+24.12.2019	apparel shoes keds respect	71.820000
+26.12.2019	electronics smartphone samsung	643.229980
+02.01.2020	electronics smartphone apple	1619.089966
+02.01.2020	electronics video tv artel	146.850006
+05.01.2020	electronics smartphone zte	136.429993
+07.01.2020	appliances environment water_heater oasis	25.480000
+09.01.2020	electronics smartphone honor	283.119995
+13.1.2020	electronics smartphone samsung	128.419998
+15.1.2020	appliances kitchen washer midea	121.709999
+05.03.2020	appliances personal massager bradex	12.360000
+06.03.2020	electronics smartphone huawei	125.610001
+11.3.2020	electronics smartphone xiaomi	241.960007
+14.3.2020	electronics audio music_tools piano cortland	132.100006
+27.3.2020	electronics smartphone samsung	275.250000
+30.3.2020	electronics smartphone apple	458.279999
+02.04.2020	auto accessories videoregister neoline	277.809998
+03.04.2020	appliances kitchen refrigerators samsung	1698.859985
+04.04.2020	electronics smartphone apple	486.799988
+08.04.2020	electronics smartphone apple	1013.859985
+10.4.2020	electronics smartphone samsung	362.290009
+16.4.2020	electronics smartphone nokia	107.570000
+17.4.2020	electronics smartphone samsung	362.290009
+20.4.2020	electronics smartphone apple	949.469971
+20.4.2020	computers peripherals keyboard defender	16.410000
+20.4.2020	apparel costume nike	111.949997
+20.4.2020	computers desktop netechnics	772.190002
+02.05.2020	electronics video tv samsung	282.029999
+06.05.2020	electronics video tv artel	146.850006
+11.5.2020	electronics smartphone huawei	151.990005
+11.5.2020	furniture kitchen chair zeta	16.959999
+14.5.2020	electronics video tv sony	329.220001
+18.5.2020	electronics video tv sony	384.739990
+30.5.2020	electronics smartphone apple	458.279999
+01.06.2020	apparel underwear milavitsa	18.559999
+02.06.2020	computers components motherboard asrock	54.570000
+02.06.2020	electronics clocks swatch	107.080002
+05.06.2020	computers notebook lenovo	741.309998
+08.06.2020	electronics smartphone xiaomi	176.320007
+11.6.2020	electronics smartphone xiaomi	203.089996
+18.6.2020	electronics smartphone samsung	275.250000
+27.6.2020	electronics smartphone samsung	563.700012
+30.6.2020	apparel shoes etor	100.389999
+06.07.2020	electronics smartphone xiaomi	211.919998
+17.7.2020	electronics video tv artel	146.850006
+18.7.2020	electronics smartphone xiaomi	85.879997
+20.7.2020	electronics smartphone xiaomi	212.080002
+20.7.2020	electronics smartphone samsung	128.419998
+22.7.2020	furniture living_room cabinet sv	385.850006
+27.7.2020	computers components videocards powercolor	187.649994
+02.08.2020	computers desktop acer	874.929993
+10.8.2020	electronics smartphone apple	973.409973
+12.8.2020	apparel shoes respect	62.810001
+12.8.2020	computers components videocards palit	157.960007
+13.8.2020	electronics smartphone apple	1583.479980
+16.8.2020	electronics smartphone xiaomi	280.570007
+19.8.2020	appliances kitchen refrigerators lg	463.070007
+25.8.2020	apparel shoes respect	68.209999
+26.8.2020	apparel shoes keds respect	44.790001
+27.8.2020	electronics smartphone xiaomi	212.080002
+28.8.2020	electronics smartphone samsung	193.259995
+28.8.2020	electronics audio headphone apple	160.570007
+28.8.2020	apparel shoes pablosky	65.379997
+03.09.2020	apparel shoes etor	100.389999
+06.09.2020	computers peripherals printer hp	95.660004
+07.09.2020	computers notebook asus	424.700012
+13.9.2020	electronics smartphone xiaomi	489.070007
+18.9.2020	appliances personal massager bradex	12.360000
+30.9.2020	apparel shoes keds catunltd	64.870003
+3.10.2020	furniture kitchen table mamadoma	215.710007
+9.10.2020	computers components videocards powercolor	187.649994
+12.10.2020	electronics smartphone samsung	170.139999
+14.10.2020	computers notebook hp	774.020020
+24.10.2020	computers notebook acer	437.570007
+3.11.2020	appliances kitchen washer lg	390.350006
+4.11.2020	computers notebook lenovo	450.440002
+4.11.2020	computers notebook acer	360.339996
+5.11.2020	electronics smartphone apple	732.070007
+9.11.2020	electronics smartphone apple	1453.000000
+16.11.2020	electronics smartphone samsung	242.630005
+22.11.2020	apparel shoes baden	64.610001
+23.11.2020	electronics smartphone samsung	128.419998
+25.11.2020	electronics smartphone samsung	362.290009
+2.12.2020	kids dolls llorens	38.590000
+4.12.2020	electronics smartphone huawei	106.540001
+5.12.2020	electronics smartphone apple	1364.000000
+7.12.2020	electronics smartphone samsung	313.779999
+10.12.2020	electronics smartphone apple	1348.609985
+11.12.2020	electronics smartphone samsung	139.639999
+13.12.2020	furniture bedroom bed stendmebel	176.039993
+16.12.2020	electronics audio music_tools piano cortland	84.940002
+17.12.2020	electronics smartphone meizu	123.529999
+28.12.2020	electronics audio subwoofer hertz	90.980003
+02.01.2021	computers peripherals printer epson	203.839996
+02.01.2021	electronics smartphone xiaomi	220.779999
+09.01.2021	electronics smartphone apple	722.400024
+12.1.2021	electronics smartphone xiaomi	138.710007
+14.1.2021	computers peripherals printer hp	136.119995
+19.1.2021	computers desktop acer	874.929993
+23.1.2021	computers components cpu amd	143.940002
+23.1.2021	electronics smartphone apple	976.820007
+07.03.2021	electronics clocks tissot	1019.330017
+07.03.2021	electronics smartphone huawei	125.610001
+08.03.2021	appliances kitchen refrigerators indesit	314.079987
+09.03.2021	electronics smartphone xiaomi	478.260010
+09.03.2021	electronics smartphone samsung	733.609985
+10.3.2021	electronics clocks samsung	257.869995
+11.3.2021	construction tools welding magnetta	254.779999
+14.3.2021	electronics audio headphone apple	160.570007
+16.3.2021	computers components cpu amd	143.940002
+16.3.2021	electronics tablet samsung	462.820007
+17.3.2021	electronics smartphone samsung	242.630005
+18.3.2021	electronics smartphone samsung	275.250000
+19.3.2021	electronics smartphone apple	1453.000000
+21.3.2021	electronics smartphone apple	1453.000000
+02.04.2021	electronics smartphone apple	1027.439941
+03.04.2021	computers components cpu intel	270.640015
+03.04.2021	appliances kitchen refrigerators bosch	554.369995
+07.04.2021	electronics smartphone xiaomi	169.630005
+10.4.2021	electronics audio subwoofer hertz	87.570000
+13.4.2021	electronics clocks apple	552.140015
+18.4.2021	electronics clocks tissot	854.590027
+22.4.2021	electronics audio headphone xiaomi	70.790001
+30.4.2021	electronics audio music_tools piano yamaha	236.270004
+01.05.2021	electronics smartphone apple	599.229980
+06.05.2021	electronics clocks garmin	2239.439941
+08.05.2021	appliances personal massager bradex	12.360000
+08.05.2021	electronics smartphone xiaomi	212.080002
+13.5.2021	electronics video tv lg	499.339996
+17.5.2021	electronics audio headphone xiaomi	23.049999
+23.5.2021	electronics smartphone tp-link	102.699997
+26.5.2021	construction tools welding huter	133.309998
+03.06.2021	appliances kitchen refrigerators whirlpool	505.799988
+06.06.2021	electronics smartphone huawei	266.000000
+06.06.2021	electronics audio subwoofer pride	128.699997
+18.6.2021	electronics smartphone apple	1348.609985
+18.6.2021	apparel underwear milavitsa	35.250000
+19.6.2021	furniture kitchen chair nika	47.770000
+21.6.2021	electronics smartphone apple	717.630005
+26.6.2021	electronics smartphone samsung	128.419998
+26.6.2021	electronics smartphone xiaomi	553.169983
+28.6.2021	computers components motherboard asus	248.660004
+29.6.2021	construction tools saw dwt	66.360001
+01.07.2021	electronics smartphone xiaomi	183.270004
+03.07.2021	computers notebook lenovo	514.789978
+10.7.2021	electronics smartphone apple	1661.089966
+13.7.2021	appliances kitchen washer hotpoint-ariston	307.579987
+14.7.2021	electronics tablet samsung	234.600006
+25.7.2021	computers desktop netechnics	772.190002
+28.7.2021	electronics audio headphone hp	67.839996
+04.08.2021	apparel shoes etor	100.389999
+06.08.2021	electronics smartphone xiaomi	347.239990
+07.08.2021	electronics smartphone samsung	88.239998
+16.8.2021	apparel shoes keds nike	94.980003
+18.8.2021	accessories bag fisherman	48.430000
+19.8.2021	electronics smartphone samsung	139.639999
+27.8.2021	electronics smartphone huawei	257.119995
+05.09.2021	electronics smartphone huawei	334.369995
+05.09.2021	electronics smartphone apple	1348.609985
+08.09.2021	appliances personal scales scarlett	23.750000
+09.09.2021	electronics clocks tissot	380.959991
+11.9.2021	apparel underwear milavitsa	9.000000
+12.9.2021	electronics smartphone samsung	733.609985
+12.9.2021	electronics smartphone huawei	266.000000
+14.9.2021	electronics smartphone samsung	172.229996
+21.9.2021	electronics audio headphone meizu	71.820000
+23.9.2021	computers components videocards palit	170.630005
+28.9.2021	electronics smartphone samsung	128.419998
+5.10.2021	construction tools saw dwt	48.349998
+13.10.2021	electronics smartphone xiaomi	138.740005
+22.10.2021	appliances kitchen washer samsung	306.049988
+23.10.2021	electronics smartphone xiaomi	183.270004
+24.10.2021	electronics smartphone apple	1665.359985
+25.10.2021	electronics audio headphone acme	51.220001
+25.10.2021	electronics audio headphone harper	48.910000
+25.10.2021	electronics smartphone xiaomi	92.639999
+26.10.2021	electronics smartphone samsung	733.609985
+27.10.2021	appliances kitchen washer midea	102.419998
+29.10.2021	electronics clocks suunto	504.260010
+10.11.2021	auto accessories player ams	221.369995
+12.11.2021	electronics smartphone xiaomi	478.260010
+12.11.2021	electronics tablet lenovo	128.419998
+15.11.2021	electronics smartphone apple	949.469971
+18.11.2021	apparel shoes respect	86.230003
+19.11.2021	electronics smartphone samsung	128.419998
+22.11.2021	appliances kitchen washer indesit	177.270004
+27.11.2021	computers components motherboard asrock	100.239998
+27.11.2021	electronics audio headphone xiaomi	12.840000
+5.12.2021	electronics video tv lg	501.920013
+9.12.2021	computers components videocards palit	141.320007
+9.12.2021	electronics smartphone apple	1027.589966
+10.12.2021	electronics smartphone samsung	503.089996
+12.12.2021	appliances environment water_heater artel	85.820000
+13.12.2021	electronics audio headphone xiaomi	12.840000
+17.12.2021	appliances kitchen refrigerators samsung	514.780029
+18.12.2021	electronics smartphone huawei	266.000000
+18.12.2021	appliances kitchen washer samsung	306.049988
+21.12.2021	electronics smartphone apple	1661.089966
+26.12.2021	electronics smartphone xiaomi	153.490005
+27.12.2021	electronics smartphone apple	532.570007
+28.12.2021	furniture bedroom bed sv	386.369995
+29.12.2021	appliances kitchen meat_grinder dauscher	30.860001
