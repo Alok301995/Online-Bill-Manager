@@ -62,7 +62,7 @@ Parse_info *_parse_str(char *str)
             if (strcmp(field, "price") == 0 || strcmp(field, "name") == 0 || strcmp(field, "date") == 0)
             {
 
-                FILE *file = fopen(file_name, "r");
+                FILE *file = fopen(file_name, "r+");
                 if (file == NULL)
                 {
                     return NULL;
@@ -74,7 +74,7 @@ Parse_info *_parse_str(char *str)
                     sprintf(rec->field, "%s", field);
                     rec->file[0] = file;
                     rec->file[1] = NULL;
-                    rec->file[2] = NULL;
+                    rec->file[2] = file;
                     rec->_n = 1;
                     return rec;
                 }
@@ -100,8 +100,8 @@ Parse_info *_parse_str(char *str)
         {
             if (strcmp(field, "price") == 0 || strcmp(field, "name") == 0 && strcmp(field, "price") == 0)
             {
-                FILE *file_1 = fopen(file_name_1, "r");
-                FILE *file_2 = fopen(file_name_2, "r");
+                FILE *file_1 = fopen(file_name_1, "r+");
+                FILE *file_2 = fopen(file_name_2, "r+");
                 FILE *out_f = fopen(out_file_name, "w");
                 if (file_1 == NULL || file_2 == NULL)
                 {
@@ -149,7 +149,7 @@ Parse_info *_parse_str(char *str)
                 sprintf(rec->field, "%s", "");
                 rec->file[0] = file_1;
                 rec->file[1] = file_2;
-                rec->_n = 2;
+                rec->_n = 0;
                 return rec;
             }
         }
@@ -217,60 +217,102 @@ int main(int argc, char *argv[])
         while ((buffer[n++] = getchar()) != '\n')
             ;
         Parse_info *parse = _parse_str(buffer);
-        bzero(buffer, 1024);
-        sprintf(buffer, "%s %s", parse->com, parse->field);
-        write(sockfd, buffer, sizeof(buffer));
-        bzero(buffer, 1024);
-        read(sockfd, buffer, sizeof(buffer));
-        if (strcmp(buffer, "1") == 0)
+        if (parse == NULL)
         {
-            // prepare the files for transfer
+            printf("Incorrect Command");
+            continue;
+        }
+        else
+        {
+
             bzero(buffer, 1024);
-            sprintf(buffer, "%d", parse->_n);
-            write(sockfd, buffer, max_size);
-            bzero(buffer, 1024);
-            read(sockfd, buffer, sizeof(buffer));
+            sprintf(buffer, "%s %s", parse->com, parse->field);
+            write(sockfd, buffer, sizeof(buffer));
             bzero(buffer, 1024);
             read(sockfd, buffer, sizeof(buffer));
             if (strcmp(buffer, "1") == 0)
             {
-                for (int i = 0; i < parse->_n; i++)
+                // prepare the files for transfer
+                bzero(buffer, 1024);
+                sprintf(buffer, "%d", parse->_n);
+                write(sockfd, buffer, max_size);
+                bzero(buffer, 1024);
+                read(sockfd, buffer, sizeof(buffer));
+                bzero(buffer, 1024);
+                read(sockfd, buffer, sizeof(buffer));
+                if (strcmp(buffer, "1") == 0)
                 {
-                    bzero(buffer, 1024);
-                    if (parse->file[i] != NULL)
+                    for (int i = 0; i < parse->_n; i++)
                     {
-                        int _n_lines = _NLINEX(parse->file[i]);
-                        rewind(parse->file[i]);
-                        int count = 0;
-                        while (count < _n_lines)
+                        bzero(buffer, 1024);
+                        if (parse->file[i] != NULL)
                         {
-                            bzero(buffer, 1024);
-                            fgets(buffer, 1024, parse->file[i]);
-                            write(sockfd, buffer, sizeof(buffer));
-                            bzero(buffer, 1024);
-                            read(sockfd, buffer, sizeof(buffer));
-                            if (strcmp(buffer, "1") == 0)
+                            int _n_lines = _NLINEX(parse->file[i]);
+                            rewind(parse->file[i]);
+                            int count = 0;
+                            while (count < _n_lines)
                             {
                                 bzero(buffer, 1024);
-                                count++;
-                                continue;
+                                fgets(buffer, 1024, parse->file[i]);
+                                write(sockfd, buffer, sizeof(buffer));
+                                bzero(buffer, 1024);
+                                read(sockfd, buffer, sizeof(buffer));
+                                if (strcmp(buffer, "1") == 0)
+                                {
+                                    bzero(buffer, 1024);
+                                    count++;
+                                    continue;
+                                }
                             }
+                            bzero(buffer, 1024);
+                            sprintf(buffer, "%d", 1);
+                            write(sockfd, buffer, sizeof(buffer));
+                            bzero(buffer, 1024);
                         }
+                    }
+                }
+                // Prepare for result
+
+                read(sockfd, buffer, sizeof(buffer));
+                if (strcmp(buffer, "1") == 0)
+                {
+                    bzero(buffer, 1024);
+                    sprintf(buffer, "%d", 1);
+                    write(sockfd, buffer, sizeof(buffer));
+                    bzero(buffer, 1024);
+                    FILE *f = fopen("out_cl.txt", "w");
+                    while (1)
+                    {
+                        read(sockfd, buffer, sizeof(buffer));
+                        if (strcmp(buffer, "1") == 0)
+                        {
+                            // for (int i = 0; i < 2; i++)
+                            // {
+                            //     if (parse->file[i] != NULL)
+                            //     {
+                            //         fclose(parse->file[i]);
+                            //     }
+                            // }
+                            fclose(f);
+                            break;
+                        }
+                        fputs(buffer, f);
                         bzero(buffer, 1024);
                         sprintf(buffer, "%d", 1);
                         write(sockfd, buffer, sizeof(buffer));
-                        bzero(buffer, 1024);
-                        fclose(parse->file[i]);
                     }
+                    bzero(buffer, 1024);
                 }
+
+                // reciving result
             }
-        }
-        else
-        {
-            bzero(buffer, 1024);
-            sprintf(buffer, "%d", -1);
-            write(sockfd, buffer, max_size);
-            continue;
+            else
+            {
+                bzero(buffer, 1024);
+                sprintf(buffer, "%d", -1);
+                write(sockfd, buffer, max_size);
+                continue;
+            }
         }
     }
 

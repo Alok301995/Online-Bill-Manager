@@ -547,6 +547,7 @@ int main(int argc, char *argv[])
                     read(newfd, buff, sizeof(buff));
                     if (strcmp(buff, "1") == 0)
                     {
+                        rewind(fp);
                         fclose(fp);
                         break;
                     }
@@ -557,6 +558,54 @@ int main(int argc, char *argv[])
                 }
                 bzero(buff, 1024);
             }
+            // loading files to structure
+            int _n[2];
+            Record **record[2];
+            for (int i = 0; i < 2; i++)
+            {
+                FILE *fp = fopen(file_rec->file[i], "r");
+                _n[i] = _NLINX(fp);
+                rewind(fp);
+                record[i] = _load_file(fp, _n[i]);
+                fclose(fp);
+            }
+            if (strcmp(com, "/sort") == 0)
+            {
+
+                sort(record[0], _n[0], field);
+                _record_to_file(record[0], _n[0]);
+            }
+            else if (strcmp(com, "/merge") == 0)
+            {
+                _merge_to_file(record[0], record[1], _n[0], _n[1], field);
+            }
+
+            // performing operation
+            bzero(buff, 1024);
+            sprintf(buff, "%d", 1);
+            write(newfd, buff, sizeof(buff));
+            bzero(buff, 1024);
+            FILE *fp = fopen("output.txt", "r");
+            int n = _NLINX(fp);
+            int count = 0;
+            rewind(fp);
+            read(newfd, buff, sizeof(buff));
+            bzero(buff, 1024);
+            while (count < n)
+            {
+                fgets(buff, 1024, fp);
+                write(newfd, buff, sizeof(buff));
+                bzero(buff, 1024);
+                read(newfd, buff, sizeof(buff));
+                if (strcmp(buff, "1") == 0)
+                {
+                    bzero(buff, sizeof(buff));
+                    count++;
+                    continue;
+                }
+            }
+            sprintf(buff, "%d", 1);
+            write(newfd, buff, sizeof(buff));
         }
     }
     close(newfd);
