@@ -1,7 +1,11 @@
 #include <stdio.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <unistd.h>
 #include <stdlib.h>
 #include <string.h>
-#include <sys/stat.h>
+#include <sys/socket.h>
+#include <sys/types.h>
 #define MAX_YEAR 9999
 #define MIN_YEAR 1800
 
@@ -16,6 +20,11 @@ typedef struct Records
     float value;
 } Record;
 
+typedef struct Client_Record
+{
+    char *file[2];
+} Client_Record;
+
 // *******************************
 
 // *********** Untility Function **********
@@ -26,6 +35,24 @@ void swap(Record *a, Record *b)
     *b = temp;
 }
 
+int _NLINX(FILE *file)
+{
+    int _number_of_lines = 0;
+    char ch;
+    while ((ch = fgetc(file)) != EOF)
+    {
+        if (ch == '\n')
+        {
+            _number_of_lines++;
+        }
+    }
+    if (ftell(file) > 0)
+    {
+        _number_of_lines = _number_of_lines + 1;
+        return _number_of_lines;
+    }
+    return _number_of_lines;
+}
 // for printing msg
 
 void _print_msg(char *msg)
@@ -424,20 +451,114 @@ void _merge_to_file(Record **r_1, Record **r_2, int size_1, int size_2, char *ty
     }
 }
 // *********************************************************************************
-
-// *********************************************************
-
-// *********************************************************
-
-int main()
+// ************ Recieve from client*********
+void _process_client_request(char *buff, int _n_files, int fd)
 {
+}
 
-    FILE *file_1 = fopen("bill_1.txt", "r");
-    FILE *file_2 = fopen("bill_2.txt", "r");
-    Record **record_1 = _load_file(file_1, 10);
-    Record **record_2 = _load_file(file_2, 10);
+// *****************************************
 
-    _similarity(record_1, record_2, 10, 10);
-    fclose(file_2);
-    fclose(file_1);
+// *********************************************************
+
+// *********************************************************
+
+int main(int argc, char *argv[])
+{
+    int PORT = atoi(argv[1]);
+    int sockfd, newfd, len;
+    struct sockaddr_in addr, cli;
+
+    sockfd = socket(AF_INET, SOCK_STREAM, 0);
+    if (sockfd == -1)
+    {
+        printf("socket creation failed...\n");
+        exit(0);
+    }
+    else
+        printf("Socket successfully created..\n");
+    bzero(&addr, sizeof(addr));
+
+    // assign IP, PORT
+    addr.sin_family = AF_INET;
+    addr.sin_addr.s_addr = htonl(INADDR_ANY);
+    addr.sin_port = htons(PORT);
+    if ((bind(sockfd, (struct sockaddr *)&addr, sizeof(addr))) != 0)
+    {
+        printf("socket bind failed...\n");
+        exit(0);
+    }
+    else
+        printf("Socket successfully binded..\n");
+
+    if ((listen(sockfd, 5)) != 0)
+    {
+        printf("Listen failed...\n");
+        exit(0);
+    }
+    else
+        printf("Server listening..\n");
+    len = sizeof(cli);
+    newfd = accept(sockfd, (struct sockaddr *)&cli, &len);
+    if (newfd < 0)
+    {
+        printf("server accept failed...\n");
+        exit(0);
+    }
+    else
+        printf("server accept the client...\n");
+    int max_size = 1024;
+    char buff[max_size];
+    char com[20];
+    char field[20];
+    int _n_files;
+
+    while (1)
+    {
+        bzero(buff, sizeof(buff));
+        read(newfd, buff, sizeof(buff));
+        sscanf(buff, "%[^' '] %[^\n]", com, field);
+        bzero(buff, max_size);
+        sprintf(buff, "%d", 1);
+        write(newfd, buff, sizeof(buff));
+        bzero(buff, max_size);
+        read(newfd, buff, sizeof(buff));
+        if (strcmp(buff, "-1") == 0)
+        {
+            continue;
+        }
+        else
+        {
+            sscanf(buff, "%d", &_n_files);
+            bzero(buff, max_size);
+            sprintf(buff, "%d", 1);
+            write(newfd, buff, sizeof(buff));
+            bzero(buff, max_size);
+            sprintf(buff, "%d", 1);
+            write(newfd, buff, 1024);
+            Client_Record *file_rec = (Client_Record *)malloc(sizeof(Client_Record));
+            file_rec->file[0] = "out_1.txt";
+            file_rec->file[1] = "out_2.txt";
+            for (int i = 0; i < _n_files; i++)
+            {
+                FILE *fp = fopen(file_rec->file[i], "w+");
+                bzero(buff, 1024);
+                while (1)
+                {
+                    read(newfd, buff, sizeof(buff));
+                    if (strcmp(buff, "1") == 0)
+                    {
+                        fclose(fp);
+                        break;
+                    }
+                    fputs(buff, fp);
+                    bzero(buff, 1024);
+                    sprintf(buff, "%d", 1);
+                    write(newfd, buff, sizeof(buff));
+                }
+                bzero(buff, 1024);
+            }
+        }
+    }
+    close(newfd);
+    close(sockfd);
 }

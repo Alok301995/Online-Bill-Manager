@@ -1,0 +1,95 @@
+int max_size = 1024;
+    int file_buff_size = 65000;
+    char buffer[max_size];
+    char file_buff[file_buff_size];
+    int n;
+    char ch;
+    while (1)
+    {
+        bzero(buffer, max_size);
+        printf("\n[+]Enter Command: ");
+        n = 0;
+        while ((buffer[n++] = getchar()) != '\n')
+            ;
+        write(sockfd, buffer, sizeof(buffer));
+        bzero(buffer, 1024);
+        read(sockfd, buffer, 1024);
+        printf("%s", buffer);
+        if (strcmp(buffer, "1") == 0)
+        {
+            FILE *file = fopen("bill_1.txt", "r");
+            int _n_line = _NLINEX(file);
+            rewind(file);
+            int count = 0;
+            while (count < _n_line)
+            {
+                bzero(buffer, max_size);
+                fgets(buffer, 1024, file);
+                write(sockfd, buffer, sizeof(buffer));
+                bzero(buffer, max_size);
+                read(sockfd, buffer, sizeof(buffer));
+                if (strcmp(buffer, "1") == 0)
+                {
+                    count++;
+                }
+            }
+            bzero(buffer, 1024);
+            sprintf(buffer, "%s", "success");
+            write(sockfd, buffer, sizeof(buffer));
+            bzero(buffer, 1024);
+            fclose(file);
+        }
+        else
+        {
+            continue;
+        }
+    }
+
+
+
+
+
+    wirter 
+
+
+    int max_size = 1024;
+    char buff[max_size];
+    char com[20];
+    char field[20];
+    
+    while (1)
+    {
+        printf("\n[-->]");
+        bzero(buff, 1024);
+        read(newfd, buff, sizeof(buff));
+        sscanf(buff, "%[^\n]", com);
+        if (strcmp(com, "sort") == 0)
+        {
+            bzero(buff, 1024);
+            sprintf(buff, "%d", 1);
+            write(newfd, buff, sizeof(buff));
+            bzero(buff, 1024);
+            FILE *fp = fopen("out.txt", "w+");
+            while (1)
+            {
+                read(newfd, buff, sizeof(buff));
+                if (strcmp(buff, "success") == 0)
+                {
+                    fclose(fp);
+                    break;
+                }
+                fputs(buff, fp);
+                bzero(buff, 1024);
+                sprintf(buff, "%s", "1");
+                write(newfd, buff, sizeof(buff));
+            }
+            bzero(buff, 1024);
+        }
+        else
+        {
+            bzero(buff, 1024);
+            sprintf(buff, "%s", "0");
+            write(newfd, buff, sizeof(buff));
+            bzero(buff, 1024);
+        }
+    }

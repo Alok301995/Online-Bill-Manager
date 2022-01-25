@@ -5,11 +5,15 @@
 #include <sys/socket.h>
 #include <unistd.h>
 
+#define SIZE 30000;
+
 typedef struct parsed_info
 {
-    char com[20];
-    FILE *file[3];
-    char field[20];
+    char com[100];
+    FILE *file_1;
+    FILE *file_2;
+    FILE *out_file;
+    char field[30];
     int _n;
 
 } Parse_info;
@@ -19,28 +23,6 @@ Parse_info *_allocate_mem()
     Parse_info *rec = (Parse_info *)malloc(sizeof(Parse_info));
     return rec;
 }
-
-// No. of line
-int _NLINEX(FILE *file)
-{
-    int _number_of_lines = 0;
-    char ch;
-    while ((ch = fgetc(file)) != EOF)
-    {
-        if (ch == '\n')
-        {
-            _number_of_lines++;
-        }
-    }
-    if (ftell(file) > 0)
-    {
-        _number_of_lines = _number_of_lines + 1;
-        return _number_of_lines;
-    }
-    return _number_of_lines;
-}
-
-// *************
 
 // ************Parse Command************************
 
@@ -72,9 +54,9 @@ Parse_info *_parse_str(char *str)
                     Parse_info *rec = _allocate_mem();
                     sprintf(rec->com, "%s", command);
                     sprintf(rec->field, "%s", field);
-                    rec->file[0] = file;
-                    rec->file[1] = NULL;
-                    rec->file[2] = NULL;
+                    rec->file_1 = file;
+                    rec->file_2 = NULL;
+                    rec->out_file = NULL;
                     rec->_n = 1;
                     return rec;
                 }
@@ -112,9 +94,9 @@ Parse_info *_parse_str(char *str)
                     Parse_info *rec = _allocate_mem();
                     sprintf(rec->com, "%s", command);
                     sprintf(rec->field, "%s", field);
-                    rec->file[0] = file_1;
-                    rec->file[1] = file_2;
-                    rec->file[2] = out_f;
+                    rec->file_1 = file_1;
+                    rec->file_2 = file_2;
+                    rec->out_file = out_f;
                     rec->_n = 2;
                     return rec;
                 }
@@ -147,9 +129,9 @@ Parse_info *_parse_str(char *str)
                 Parse_info *rec = _allocate_mem();
                 sprintf(rec->com, "%s", command);
                 sprintf(rec->field, "%s", "");
-                rec->file[0] = file_1;
-                rec->file[1] = file_2;
-                rec->_n = 2;
+                rec->file_1 = file_1;
+                rec->file_2 = file_2;
+                rec->_n = 0;
                 return rec;
             }
         }
@@ -175,7 +157,35 @@ Parse_info *_parse_str(char *str)
 // *************************************************
 void _send_to_server(Parse_info *info, int fd, char *buff, int buff_size)
 {
-    // sender the the parsed info to the server
+    // send command to sever
+    bzero(buff, 30000);
+    snprintf(buff, 30000, "%s", info->com);
+    write(fd, buff, sizeof(buff));
+    bzero(buff, 30000);
+    if (strcmp(info->com, "/sort") == 0)
+    {
+
+        bzero(buff, buff_size);
+        int count = fread(buff, sizeof(char), buff_size, info->file_1);
+        printf("%d", count);
+        if (count == 30000 && fgetc(info->file_1) != EOF)
+        {
+            printf("file size exceeded\n");
+            bzero(buff, 30000);
+            fclose(info->file_1);
+            free(info);
+            return;
+        }
+        printf("buff at client %s \n", buff);
+        fclose(info->file_1);
+        free(info);
+        return;
+    }
+    else
+    {
+        return;
+    }
+    return;
 }
 
 // ***********************************************************************************************
@@ -203,76 +213,33 @@ int main(int argc, char *argv[])
         printf("connection with the server failed...\n");
         exit(0);
     }
-    int max_size = 1024;
-    int file_buff_size = 65000;
-    char buffer[max_size];
-    char file_buff[file_buff_size];
+    char buffer[30000];
     int n;
     char ch;
     while (1)
     {
-        bzero(buffer, max_size);
-        printf("\n[+]Enter Command: ");
+        bzero(buffer, sizeof(buffer));
+        printf("Enter Command: ");
         n = 0;
         while ((buffer[n++] = getchar()) != '\n')
             ;
-        Parse_info *parse = _parse_str(buffer);
-        bzero(buffer, 1024);
-        sprintf(buffer, "%s %s", parse->com, parse->field);
-        write(sockfd, buffer, sizeof(buffer));
-        bzero(buffer, 1024);
-        read(sockfd, buffer, sizeof(buffer));
-        if (strcmp(buffer, "1") == 0)
+        Parse_info *parsed = _parse_str(buffer);
+        bzero(buffer, 30000);
+        if (parsed == NULL)
         {
-            // prepare the files for transfer
-            bzero(buffer, 1024);
-            sprintf(buffer, "%d", parse->_n);
-            write(sockfd, buffer, max_size);
-            bzero(buffer, 1024);
-            read(sockfd, buffer, sizeof(buffer));
-            bzero(buffer, 1024);
-            read(sockfd, buffer, sizeof(buffer));
-            if (strcmp(buffer, "1") == 0)
-            {
-                for (int i = 0; i < parse->_n; i++)
-                {
-                    bzero(buffer, 1024);
-                    if (parse->file[i] != NULL)
-                    {
-                        int _n_lines = _NLINEX(parse->file[i]);
-                        rewind(parse->file[i]);
-                        int count = 0;
-                        while (count < _n_lines)
-                        {
-                            bzero(buffer, 1024);
-                            fgets(buffer, 1024, parse->file[i]);
-                            write(sockfd, buffer, sizeof(buffer));
-                            bzero(buffer, 1024);
-                            read(sockfd, buffer, sizeof(buffer));
-                            if (strcmp(buffer, "1") == 0)
-                            {
-                                bzero(buffer, 1024);
-                                count++;
-                                continue;
-                            }
-                        }
-                        bzero(buffer, 1024);
-                        sprintf(buffer, "%d", 1);
-                        write(sockfd, buffer, sizeof(buffer));
-                        bzero(buffer, 1024);
-                        fclose(parse->file[i]);
-                    }
-                }
-            }
+            printf("error \n");
         }
         else
         {
-            bzero(buffer, 1024);
-            sprintf(buffer, "%d", -1);
-            write(sockfd, buffer, max_size);
-            continue;
+            _send_to_server(parsed, sockfd, buffer, 30000);
+            write(sockfd, buffer, sizeof(buffer));
+            bzero(buffer, 30000);
+            read(sockfd, buffer, sizeof(buffer));
+            printf("%s", buffer);
         }
     }
 
+    // write(sockfd, buffer, sizeof(buffer));
+    // bzero(buffer, sizeof(buffer));
     close(sockfd);
 }
