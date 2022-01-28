@@ -11,6 +11,7 @@ typedef struct parsed_info
     FILE *file[3];
     char field[20];
     int _n;
+    char out_file_name[100];
 
 } Parse_info;
 
@@ -20,24 +21,18 @@ Parse_info *_allocate_mem()
     return rec;
 }
 
-// No. of line
-int _NLINEX(FILE *file)
+int NLINEX(FILE *file)
 {
-    int _number_of_lines = 0;
-    char ch;
-    while ((ch = fgetc(file)) != EOF)
+    int count = 0;
+    char buffer[100];
+    while (!feof(file) && fgets(buffer, 1000, file))
     {
-        if (ch == '\n')
+        if (strlen(buffer) > 0)
         {
-            _number_of_lines++;
+            count++;
         }
     }
-    if (ftell(file) > 0)
-    {
-        _number_of_lines = _number_of_lines + 1;
-        return _number_of_lines;
-    }
-    return _number_of_lines;
+    return count;
 }
 
 // *************
@@ -59,7 +54,7 @@ Parse_info *_parse_str(char *str)
         if (_arg_count == 2 && strlen(file_name) > 0 && strlen(field) > 0)
         {
             // check for field
-            if (strcmp(field, "price") == 0 || strcmp(field, "name") == 0 || strcmp(field, "date") == 0)
+            if (strcmp(field, "P") == 0 || strcmp(field, "N") == 0 || strcmp(field, "D") == 0)
             {
 
                 FILE *file = fopen(file_name, "r+");
@@ -75,6 +70,8 @@ Parse_info *_parse_str(char *str)
                     rec->file[0] = file;
                     rec->file[1] = NULL;
                     rec->file[2] = file;
+                    snprintf(rec->out_file_name, 100, "%s", file_name);
+                    // printf("%s", rec->out_file_name);
                     rec->_n = 1;
                     return rec;
                 }
@@ -93,16 +90,17 @@ Parse_info *_parse_str(char *str)
     {
         char file_name_1[100];
         char file_name_2[100];
-        char out_file_name[100];
+        char out_file[100];
         char field[30];
-        int _arg_count = sscanf(msg, "%[^' '] %[^' '] %[^' '] %[^\n]", file_name_1, file_name_2, out_file_name, field);
-        if (_arg_count == 4 && strlen(file_name_1) > 0 && strlen(file_name_2) > 0 && strlen(out_file_name) > 0 && strlen(field) > 0)
+        int _arg_count = sscanf(msg, "%[^' '] %[^' '] %[^' '] %[^\n]", file_name_1, file_name_2, out_file, field);
+        printf("%s %s %s %s", file_name_1, file_name_2, out_file, field);
+        if (_arg_count == 4 && strlen(file_name_1) > 0 && strlen(file_name_2) > 0 && strlen(out_file) > 0 && strlen(field) > 0)
         {
-            if (strcmp(field, "price") == 0 || strcmp(field, "name") == 0 && strcmp(field, "price") == 0)
+            if (strcmp(field, "P") == 0 || strcmp(field, "N") == 0 || strcmp(field, "D") == 0)
             {
                 FILE *file_1 = fopen(file_name_1, "r+");
                 FILE *file_2 = fopen(file_name_2, "r+");
-                FILE *out_f = fopen(out_file_name, "w");
+                FILE *out_f = fopen(out_file, "w");
                 if (file_1 == NULL || file_2 == NULL)
                 {
                     return NULL;
@@ -115,6 +113,8 @@ Parse_info *_parse_str(char *str)
                     rec->file[0] = file_1;
                     rec->file[1] = file_2;
                     rec->file[2] = out_f;
+                    snprintf(rec->out_file_name, 100, "%s", out_file);
+                    // printf("%s", rec->out_file_name);
                     rec->_n = 2;
                     return rec;
                 }
@@ -158,17 +158,23 @@ Parse_info *_parse_str(char *str)
             return NULL;
         }
     }
-    else if (strcmp(command, "/exit") == 0)
+
+    else
     {
-        if (strlen(msg) > 0)
+        char com[30];
+        sscanf(command, "%[^\n]\n", com);
+        if (strcmp(com, "/exit") == 0)
+        {
+            Parse_info *rec = _allocate_mem();
+            sprintf(rec->com, "%s", com);
+            sprintf(rec->field, "%s", "");
+            rec->_n = 0;
+            return rec;
+        }
+        else
         {
             return NULL;
         }
-        // perform exit condition
-    }
-    else
-    {
-        return NULL;
     }
 }
 
@@ -183,32 +189,49 @@ int main(int argc, char *argv[])
 {
     int PORT = atoi(argv[1]);
     int sockfd;
-    struct sockaddr_in addr, cli;
+    struct sockaddr_in servaddr, cli;
+
+    // socket create and varification
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
     if (sockfd == -1)
     {
         printf("socket creation failed...\n");
         exit(0);
     }
+    else
+        printf("Socket successfully created..\n");
+    bzero(&servaddr, sizeof(servaddr));
 
-    printf("Socket successfully created..\n");
-    bzero(&addr, sizeof(addr));
-    struct hostent *server = gethostbyname("localhost");
-    addr.sin_family = AF_INET;
-    bcopy((char *)server->h_addr, (char *)&addr.sin_addr.s_addr, server->h_length);
-    addr.sin_port = htons(PORT);
+    // assign IP, PORT
+    servaddr.sin_family = AF_INET;
+    servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
+    servaddr.sin_port = htons(PORT);
 
-    if (connect(sockfd, (struct sockaddr *)&addr, sizeof(addr)) != 0)
+    // connect the client socket to server socket
+    if (connect(sockfd, (struct sockaddr *)&servaddr, sizeof(servaddr)) != 0)
     {
         printf("connection with the server failed...\n");
         exit(0);
     }
+    else
+        printf("connected to the server..\n");
+
     int max_size = 1024;
     int file_buff_size = 65000;
     char buffer[max_size];
     char file_buff[file_buff_size];
     int n;
     char ch;
+
+    bzero(buffer, 1024);
+    read(sockfd, buffer, 1024);
+    if (strcmp(buffer, "0") == 0)
+    {
+        printf("Server Refused to connect\n");
+        exit(EXIT_FAILURE);
+    }
+    puts(buffer);
+    bzero(buffer, 1024);
     while (1)
     {
         bzero(buffer, max_size);
@@ -230,7 +253,12 @@ int main(int argc, char *argv[])
             write(sockfd, buffer, sizeof(buffer));
             bzero(buffer, 1024);
             read(sockfd, buffer, sizeof(buffer));
-            if (strcmp(buffer, "1") == 0)
+            if (strcmp(buffer, "2") == 0)
+            {
+                printf("Exited\n");
+                break;
+            }
+            else if (strcmp(buffer, "1") == 0)
             {
                 // prepare the files for transfer
                 bzero(buffer, 1024);
@@ -247,7 +275,7 @@ int main(int argc, char *argv[])
                         bzero(buffer, 1024);
                         if (parse->file[i] != NULL)
                         {
-                            int _n_lines = _NLINEX(parse->file[i]);
+                            int _n_lines = NLINEX(parse->file[i]);
                             rewind(parse->file[i]);
                             int count = 0;
                             while (count < _n_lines)
@@ -268,31 +296,51 @@ int main(int argc, char *argv[])
                             sprintf(buffer, "%d", 1);
                             write(sockfd, buffer, sizeof(buffer));
                             bzero(buffer, 1024);
+                            fclose(parse->file[i]);
                         }
                     }
                 }
                 // Prepare for result
 
                 read(sockfd, buffer, sizeof(buffer));
-                if (strcmp(buffer, "1") == 0)
+                if (strcmp(buffer, "0") == 0)
+                {
+                    printf("File is not valid\n");
+                }
+                else if (strcmp(buffer, "2") == 0)
                 {
                     bzero(buffer, 1024);
                     sprintf(buffer, "%d", 1);
                     write(sockfd, buffer, sizeof(buffer));
-                    bzero(buffer, 1024);
-                    FILE *f = fopen("out_cl.txt", "w");
+                    sprintf(buffer, "%d", 1);
                     while (1)
                     {
                         read(sockfd, buffer, sizeof(buffer));
                         if (strcmp(buffer, "1") == 0)
                         {
-                            // for (int i = 0; i < 2; i++)
-                            // {
-                            //     if (parse->file[i] != NULL)
-                            //     {
-                            //         fclose(parse->file[i]);
-                            //     }
-                            // }
+                            break;
+                        }
+                        puts(buffer);
+                        bzero(buffer, 1024);
+                        sprintf(buffer, "%d", 1);
+                        write(sockfd, buffer, sizeof(buffer));
+                        bzero(buffer, 1024);
+                    }
+                    // Perform operation for similarity
+                }
+
+                else
+                {
+                    bzero(buffer, 1024);
+                    sprintf(buffer, "%d", 1);
+                    write(sockfd, buffer, sizeof(buffer));
+                    bzero(buffer, 1024);
+                    FILE *f = fopen(parse->out_file_name, "w");
+                    while (1)
+                    {
+                        read(sockfd, buffer, sizeof(buffer));
+                        if (strcmp(buffer, "1") == 0)
+                        {
                             fclose(f);
                             break;
                         }
@@ -302,6 +350,7 @@ int main(int argc, char *argv[])
                         write(sockfd, buffer, sizeof(buffer));
                     }
                     bzero(buffer, 1024);
+                    printf("Operation Successful\n");
                 }
 
                 // reciving result
